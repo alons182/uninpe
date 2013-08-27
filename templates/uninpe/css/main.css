@@ -27,7 +27,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #banner h1 strong{font-size:30px;font-weight:700}
 #wrapper #banner p{font-size:14px;margin:2em 0}
 #wrapper #banner a{background:#fff;color:#53565a;padding:.3em 1.5em;text-decoration:none}
-#wrapper #banner a:hover{background:#f00;color:#fff}
+#wrapper #banner a:hover{background:#a6c31e;color:#fff}
 #wrapper #middle-content{margin-bottom:20px;}
 #wrapper #middle-content .noticia:hover{background:#a6c31e}
 #wrapper #middle-content .noticia{background:#a7a7a7;display:inline-block;margin-right:-.2em;vertical-align:top;width:480px;}
