@@ -35,7 +35,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
 	<jdoc:include type="head" />
      <link rel="icon" type="image/png" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/favicon_32x32.ico">
 	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-      <?php if ($itemid == 102):?>
+      <?php if ($itemid == 101):?>
             <style type="text/css">
                 
                 #contenido{
@@ -84,17 +84,17 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 <section id="center-content">
                     <?php if ($this->countModules('left-content')) : ?>
                     <div class="content left-content">
-                        <jdoc:include type="modules" name="left-content" style="none" />
+                        <jdoc:include type="modules" name="left-content" style="xhtml" />
                     </div>
                      <?php endif; ?>
                      <?php if ($this->countModules('center-content')) : ?>
                     <div class="content center-content">
-                        <jdoc:include type="modules" name="center-content" style="none" />
+                        <jdoc:include type="modules" name="center-content" style="xhtml" />
                     </div>
                     <?php endif; ?>
                     <?php if ($this->countModules('testimonials')) : ?>
                     <div class="content testimonials">
-                       <jdoc:include type="modules" name="testimonials" style="none" />
+                       <jdoc:include type="modules" name="testimonials" style="xhtml" />
                     </div>
                     <?php endif; ?>
                 </section>
@@ -108,7 +108,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 <?php endif; ?>
                 <?php if ($this->countModules('left')) : ?>
                 <div id="left">
-                    <jdoc:include type="modules" name="left" style="none" />
+                    <jdoc:include type="modules" name="left" style="xhtml" />
                 </div>
                 <?php endif; ?>
                

@@ -10,7 +10,7 @@ body
     background #fff
     color #53565a
     font-family: 'Open Sans', sans-serif;
-    font-size 16px
+    font-size 14px
     line-height 1.4
 
 #wrapper
@@ -36,7 +36,7 @@ body
 
 			#info 
 				color #fff
-				font-size 14px
+				font-size 12px
 
 				a
 					border-right 1px solid #fff
@@ -63,23 +63,30 @@ body
 					width 100%
 		#menu
 			background #FFF
+			overflow hidden
+			width 100%
 
 			ul 
 				margin 0
 				padding 0
 
 				li 
-					display inline-block
+					//display inline-block
 					padding .5em .5em
-					vertical-align top 
+					//vertical-align top
+					float left 
 
 					a 
+						font-size 14px
 						color $gris_oscuro
 						font-weight 700
 						text-decoration none
 						text-transform uppercase
 					a:hover
 						color $gris_claro
+				.current a 
+					color $verde
+
 	#banner
 	    height 350px
 	    width 100%
@@ -103,6 +110,14 @@ body
 	            	padding 1em
 	            	width 218px
 
+					ul 
+						//margin 0
+						padding 0 0 0 10px
+						font-size 13px
+						text-align left
+
+						li 
+							padding .5em 0
 					h1 
 						font-size 24px
 						font-weight 400
@@ -128,45 +143,66 @@ body
 
 	#middle-content
 		margin-bottom 20px
-		.noticia:hover
+		.programa:hover
 			background $verde
-		.noticia
-			background $gris_claro
+			h1
+				color #FFF
+		.programa
+			background $gris_claro2
 			display inline-block
 			margin-right -0.2em
 			vertical-align top
-			width 480px
+			width 354px
+
+			h1
+				font-size 18px
+				text-align center
+			ul 
+				margin 0
+				padding 0
+				list-style none
+
+				li 
+					
+					font-size 13px
+					text-align right
+					margin 1em
+
+					a 
+						background $gris_claro
+						display block
+						text-transform uppercase
+						color #fff
+						text-decoration none
+						padding .5em
+						border-radius 10px
+
+						.subtitle
+							display block
+							text-transform none
+							font-size 11px
+					a:hover
+						background #fff
+						color $gris_claro 
+		.conocenos_video
+			background $gris_claro
+			display inline-block
+			vertical-align top 
+			width 234px
+			min-height 295px
+			padding .5em
+
+			h1
+				font-size 18px
+				text-align center
+				color #fff
+			img 
+				width 100%
 			
 
-			figure, a 
-				display inline-block
-				height 200px
-				margin-right -0.2em
-				vertical-align top
-				width 230px
-				img
-					width 100%
+			
 
-			a 
-				color #FFF
-				text-align center
-				text-decoration none
-				text-transform uppercase
-				
-
-				.title
-					display block
-					font-weight 700
-					margin-top 20px
-				.title, .des
-					font-size 24px
-
-				.des
-					display block
-					margin-top 20px
-					strong
-						font-weight 700
-	
+			
 
 	
 
@@ -183,18 +219,30 @@ body
 				padding .5em
 				position relative
 				vertical-align top
+				ul
+					margin 0
+					padding 0
+					list-style none
+
+					li 
+						
+						.mod-articles-category-title 
+							color $verde
+							font-size 14px
+							font-weight 400
+							margin 0 
+							text-decoration none
+						a:hover
+							text-decoration underline
 
 				h3
 					font-size 24px
 					text-transform uppercase
-				h4
-					color $verde
-					font-size 14px
-					font-weight 400
-					margin 0
+					margin-bottom 10px
+				
 				p 
-					font-size 14px
-				a 
+					font-size 13px
+				/*a 
 					background $gris_oscuro
 					bottom 10px
 					color #FFF
@@ -206,9 +254,9 @@ body
 					right 10px
 					text-align center
 					text-decoration none
-					width 30px
-				a:hover
-					background $verde
+					width 30px*/
+				/*a:hover
+					background $verde*/
 
 
 
@@ -256,18 +304,22 @@ body
 				margin 0
 
 
-		#left,#main,.item-page,.search 
+		#left,#main,.item-page,.search ,#k2Container, .blog  
 			display inline-block
 			margin-right -0.2em
 			vertical-align top
 		#left
 			background $gris_claro2
 			width 250px
+			padding .5em
+
+			h3
+				font-size 1em
 
 			ul
 				margin 20px 0
-				min-height 390px
-				padding 0 0 0 30px
+				//min-height 390px
+				padding 0 0 0 20px
 
 				
 				li 
@@ -285,12 +337,18 @@ body
 					a:hover
 						background $gris_oscuro
 						color #FFF
+				.parent
+					list-style none
+					.separator
+						font-size 1em
+						font-weight bold
 
-		#main,.item-page,.search  
+
+		#main,.item-page,.search, #k2Container,.blog  
 			background #fff
 			min-height 400px
 			padding 1em
-			width 678px
+			width 667px
 			h2
 				font-size 18px
 				font-style italic
@@ -299,6 +357,31 @@ body
 				font-size 14px
 			img
 				max-width 100%
+			dl 
+				margin 0
+				dd 
+					margin 0
+					font-size 12px
+			.article-info-term
+				display none
+
+		.blog
+			
+			h2
+				margin-bottom 0
+
+			.items-row
+				border-bottom 1px solid $gris_claro
+				padding .5em
+			
+
+			.readmore
+				a 
+					background $verde
+					text-decoration none
+					color #FFF
+					padding .3em
+
 
 
 
