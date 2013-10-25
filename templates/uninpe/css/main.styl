@@ -169,21 +169,42 @@ body
 					margin 1em
 
 					a 
-						background $gris_claro
+						
 						display block
 						text-transform uppercase
 						color #fff
 						text-decoration none
 						padding .5em
 						border-radius 10px
+						-webkit-box-shadow 0 5px 6px 1px rgba(0, 0, 0, 0.5)
+						-moz-box-shadow 0 5px 6px 1px rgba(0, 0, 0, 0.5)
+						box-shadow 0 5px 6px 1px rgba(0, 0, 0, 0.5)
 
 						.subtitle
 							display block
 							text-transform none
 							font-size 11px
 					a:hover
-						background #fff
-						color $gris_claro 
+						background-color #fff
+						color $gris_claro
+
+					#admin_hotelera
+						background url('../img/bg_admin_hotelera.png') no-repeat top left $gris_claro
+						
+					#admin_marketing, #admin_marketing_empresas
+						background url('../img/bg_admin_marketing.png') no-repeat top left  $gris_claro
+					#admin_rrhh, #admin_rrhh_empresas
+						background url('../img/bg_admin_rrhh.png') no-repeat top left  $gris_claro
+					#admin_calidad
+						background url('../img/bg_admin_calidad.png') no-repeat top left  $gris_claro
+					#admin_empresas
+						background url('../img/bg_admin_empresas.png') no-repeat top left  $gris_claro
+					#admin_financiera
+						background url('../img/bg_admin_contable.png') no-repeat top left  $gris_claro
+					#admin_financiera:hover, #admin_hotelera:hover, #admin_marketing:hover, #admin_marketing_empresas:hover, #admin_rrhh:hover, #admin_rrhh_empresas:hover,
+					#admin_calidad:hover,#admin_empresas:hover
+						background-color #fff
+						color $gris_claro
 		.conocenos_video
 			background $gris_claro
 			display inline-block

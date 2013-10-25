@@ -38,9 +38,16 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #middle-content .programa h1{font-size:18px;text-align:center}
 #wrapper #middle-content .programa ul{margin:0;padding:0;list-style:none;}
 #wrapper #middle-content .programa ul li{font-size:13px;text-align:right;margin:1em;}
-#wrapper #middle-content .programa ul li a{background:#a7a7a7;display:block;text-transform:uppercase;color:#fff;text-decoration:none;padding:.5em;border-radius:10px;}
+#wrapper #middle-content .programa ul li a{display:block;text-transform:uppercase;color:#fff;text-decoration:none;padding:.5em;border-radius:10px;-webkit-box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);-moz-box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);}
 #wrapper #middle-content .programa ul li a .subtitle{display:block;text-transform:none;font-size:11px}
-#wrapper #middle-content .programa ul li a:hover{background:#fff;color:#a7a7a7}
+#wrapper #middle-content .programa ul li a:hover{background-color:#fff;color:#a7a7a7}
+#wrapper #middle-content .programa ul li #admin_hotelera{background:url("../img/bg_admin_hotelera.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_marketing,#wrapper #middle-content .programa ul li #admin_marketing_empresas{background:url("../img/bg_admin_marketing.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_rrhh,#wrapper #middle-content .programa ul li #admin_rrhh_empresas{background:url("../img/bg_admin_rrhh.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_calidad{background:url("../img/bg_admin_calidad.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_empresas{background:url("../img/bg_admin_empresas.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_financiera{background:url("../img/bg_admin_contable.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_financiera:hover,#wrapper #middle-content .programa ul li #admin_hotelera:hover,#wrapper #middle-content .programa ul li #admin_marketing:hover,#wrapper #middle-content .programa ul li #admin_marketing_empresas:hover,#wrapper #middle-content .programa ul li #admin_rrhh:hover,#wrapper #middle-content .programa ul li #admin_rrhh_empresas:hover,#wrapper #middle-content .programa ul li #admin_calidad:hover,#wrapper #middle-content .programa ul li #admin_empresas:hover{background-color:#fff;color:#a7a7a7}
 #wrapper #middle-content .conocenos_video{background:#a7a7a7;display:inline-block;vertical-align:top;width:234px;min-height:295px;padding:.5em;}
 #wrapper #middle-content .conocenos_video h1{font-size:18px;text-align:center;color:#fff}
 #wrapper #middle-content .conocenos_video img{width:100%}
