@@ -66,8 +66,8 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido #breadcumbs ul{margin:0;padding:0;}
 #wrapper #contenido #breadcumbs ul li{list-style:none;display:inline-block;vertical-align:top;}
 #wrapper #contenido #breadcumbs ul li .divider{padding:0 5px}
-#wrapper #contenido #title{background:#53565a;color:#fff;display:block;font-size:30px;padding:.1em;text-transform:uppercase;}
-#wrapper #contenido #title p,#wrapper #contenido #title h1,#wrapper #contenido #title h2,#wrapper #contenido #title h3,#wrapper #contenido #title h4{margin:0}
+#wrapper #contenido #title,#wrapper #contenido .b2jcontainer h2{background:#53565a;color:#fff;display:block;font-size:30px;padding:.1em;text-transform:uppercase;}
+#wrapper #contenido #title p,#wrapper #contenido .b2jcontainer h2 p,#wrapper #contenido #title h1,#wrapper #contenido .b2jcontainer h2 h1,#wrapper #contenido #title h2,#wrapper #contenido .b2jcontainer h2 h2,#wrapper #contenido #title h3,#wrapper #contenido .b2jcontainer h2 h3,#wrapper #contenido #title h4,#wrapper #contenido .b2jcontainer h2 h4{margin:0}
 #wrapper #contenido #left,#wrapper #contenido #main,#wrapper #contenido .item-page,#wrapper #contenido .search,#wrapper #contenido #k2Container,#wrapper #contenido .blog{display:inline-block;margin-right:-.2em;vertical-align:top}
 #wrapper #contenido #left{background:#ebeae6;width:250px;padding:.5em;}
 #wrapper #contenido #left h3{font-size:1em}
@@ -79,7 +79,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido #left ul .parent .separator{font-size:1em;font-weight:bold}
 #wrapper #contenido #main,#wrapper #contenido .item-page,#wrapper #contenido .search,#wrapper #contenido #k2Container,#wrapper #contenido .blog{background:#fff;min-height:400px;padding:1em;width:667px;}
 #wrapper #contenido #main h2,#wrapper #contenido .item-page h2,#wrapper #contenido .search h2,#wrapper #contenido #k2Container h2,#wrapper #contenido .blog h2{font-size:18px;font-style:italic;font-weight:400}
-#wrapper #contenido #main p,#wrapper #contenido .item-page p,#wrapper #contenido .search p,#wrapper #contenido #k2Container p,#wrapper #contenido .blog p{font-size:14px}
+#wrapper #contenido #main p,#wrapper #contenido .item-page p,#wrapper #contenido .search p,#wrapper #contenido #k2Container p,#wrapper #contenido .blog p{font-size:14px;line-height:24px}
 #wrapper #contenido #main img,#wrapper #contenido .item-page img,#wrapper #contenido .search img,#wrapper #contenido #k2Container img,#wrapper #contenido .blog img{max-width:100%}
 #wrapper #contenido #main dl,#wrapper #contenido .item-page dl,#wrapper #contenido .search dl,#wrapper #contenido #k2Container dl,#wrapper #contenido .blog dl{margin:0;}
 #wrapper #contenido #main dl dd,#wrapper #contenido .item-page dl dd,#wrapper #contenido .search dl dd,#wrapper #contenido #k2Container dl dd,#wrapper #contenido .blog dl dd{margin:0;font-size:12px}
