@@ -5,7 +5,7 @@
 .icon-twitter:before{content:"\e004"}
 body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:14px;line-height:1.4}
 #wrapper{margin:0 auto;width:960px;}
-#wrapper header{background:#53565a;padding-top:0;}
+#wrapper header{background:#f00;padding-top:0;}
 #wrapper header #logo{display:inline-block;padding:.5em 1em;vertical-align:top;width:300px}
 #wrapper header #info-header{float:right;padding:1em;}
 #wrapper header #info-header #info{color:#fff;font-size:12px;}
@@ -17,7 +17,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper header #menu{background:#fff;overflow:hidden;width:100%;}
 #wrapper header #menu ul{margin:0;padding:0;}
 #wrapper header #menu ul li{padding:.5em .5em;float:left;}
-#wrapper header #menu ul li a{font-size:14px;color:#53565a;font-weight:700;text-decoration:none;text-transform:uppercase}
+#wrapper header #menu ul li a{font-size:14px;color:#f00;font-weight:700;text-decoration:none;text-transform:uppercase}
 #wrapper header #menu ul li a:hover{color:#a7a7a7}
 #wrapper header #menu ul .current a{color:#3a90da}
 #wrapper #banner{height:350px;width:100%;}
@@ -29,7 +29,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #banner h1{font-size:24px;font-weight:400;margin:0;text-transform:uppercase;}
 #wrapper #banner h1 strong{font-size:30px;font-weight:700}
 #wrapper #banner p{font-size:14px;margin:2em 0}
-#wrapper #banner a{background:#fff;color:#53565a;padding:.3em 1.5em;text-decoration:none}
+#wrapper #banner a{background:#fff;color:#f00;padding:.3em 1.5em;text-decoration:none}
 #wrapper #banner a:hover{background:#3a90da;color:#fff}
 #wrapper #middle-content{margin-bottom:20px;}
 #wrapper #middle-content .programa:hover{background:#3a90da;}
@@ -60,21 +60,21 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido #center-content .content p{font-size:13px}
 #wrapper #contenido #center-content .left-content{background:#ebeae6}
 #wrapper #contenido #center-content .left-content,#wrapper #contenido #center-content .center-content{width:220px}
-#wrapper #contenido #center-content .testimonials{background:#53565a;color:#fff;padding:.5em 1em;width:455px;}
+#wrapper #contenido #center-content .testimonials{background:#f00;color:#fff;padding:.5em 1em;width:455px;}
 #wrapper #contenido #center-content .testimonials .fecha,#wrapper #contenido #center-content .testimonials .autor{display:block;font-style:italic}
 #wrapper #contenido #breadcumbs{display:block;padding:.5em;}
 #wrapper #contenido #breadcumbs ul{margin:0;padding:0;}
 #wrapper #contenido #breadcumbs ul li{list-style:none;display:inline-block;vertical-align:top;}
 #wrapper #contenido #breadcumbs ul li .divider{padding:0 5px}
-#wrapper #contenido #title,#wrapper #contenido .b2jcontainer h2{background:#53565a;color:#fff;display:block;font-size:30px;padding:.1em;text-transform:uppercase;}
+#wrapper #contenido #title,#wrapper #contenido .b2jcontainer h2{background:#f00;color:#fff;display:block;font-size:30px;padding:.1em;text-transform:uppercase;}
 #wrapper #contenido #title p,#wrapper #contenido .b2jcontainer h2 p,#wrapper #contenido #title h1,#wrapper #contenido .b2jcontainer h2 h1,#wrapper #contenido #title h2,#wrapper #contenido .b2jcontainer h2 h2,#wrapper #contenido #title h3,#wrapper #contenido .b2jcontainer h2 h3,#wrapper #contenido #title h4,#wrapper #contenido .b2jcontainer h2 h4{margin:0}
 #wrapper #contenido #left,#wrapper #contenido #main,#wrapper #contenido .item-page,#wrapper #contenido .search,#wrapper #contenido #k2Container,#wrapper #contenido .blog{display:inline-block;margin-right:-.2em;vertical-align:top}
 #wrapper #contenido #left{background:#ebeae6;width:250px;padding:.5em;}
 #wrapper #contenido #left h3{font-size:1em}
 #wrapper #contenido #left ul{margin:20px 0;padding:0 0 0 20px;}
 #wrapper #contenido #left ul li{list-style:disc;margin-bottom:5px;}
-#wrapper #contenido #left ul li a{color:#53565a;display:block;font-size:14px;padding:.3em .5em;text-decoration:none}
-#wrapper #contenido #left ul li a:hover{background:#53565a;color:#fff}
+#wrapper #contenido #left ul li a{color:#f00;display:block;font-size:14px;padding:.3em .5em;text-decoration:none}
+#wrapper #contenido #left ul li a:hover{background:#f00;color:#fff}
 #wrapper #contenido #left ul .parent{list-style:none;}
 #wrapper #contenido #left ul .parent .separator{font-size:1em;font-weight:bold}
 #wrapper #contenido #main,#wrapper #contenido .item-page,#wrapper #contenido .search,#wrapper #contenido #k2Container,#wrapper #contenido .blog{background:#fff;min-height:400px;padding:1em;width:667px;}
@@ -87,15 +87,15 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido .blog h2{margin-bottom:0}
 #wrapper #contenido .blog .items-row{border-bottom:1px solid #a7a7a7;padding:.5em}
 #wrapper #contenido .blog .readmore a{background:#3a90da;text-decoration:none;color:#fff;padding:.3em}
-#wrapper footer{background:#53565a;color:#ebeae6;margin-top:20px;}
+#wrapper footer{background:#f00;color:#ebeae6;margin-top:20px;}
 #wrapper footer a{color:#ebeae6;text-decoration:none}
 #wrapper footer .column{display:inline-block;margin-right:-.2em;padding:.5em;vertical-align:top;width:220px;}
 #wrapper footer .column h3{text-transform:uppercase}
 #wrapper footer .column ul{list-style:disc;padding:0 0 0 20px;}
 #wrapper footer .column ul li{font-size:14px;padding:.3em;text-transform:uppercase}
 #wrapper footer .column input[type="text"],#wrapper footer .column input[type="email"],#wrapper footer .column textarea{width:100%}
-#wrapper footer .column button,#wrapper footer .column input[type="submit"]{background:#fff;border:none;clear:both;color:#53565a;cursor:pointer;float:left;font-size:12px;height:26px;margin-right:4px;width:80px}
+#wrapper footer .column button,#wrapper footer .column input[type="submit"]{background:#fff;border:none;clear:both;color:#f00;cursor:pointer;float:left;font-size:12px;height:26px;margin-right:4px;width:80px}
 #wrapper footer .column-4 #logo-footer{margin-top:20px}
 #wrapper footer .column-4 p{font-size:12px;font-style:italic}
-#wrapper footer .column-4 #facebook,#wrapper footer .column-4 #twitter{background:#fff;border-radius:5px;color:#53565a;display:inline-block;padding:.5em;margin-right:.5em}
+#wrapper footer .column-4 #facebook,#wrapper footer .column-4 #twitter{background:#fff;border-radius:5px;color:#f00;display:inline-block;padding:.5em;margin-right:.5em}
 #wrapper footer .column-4 #facebook:hover,#wrapper footer .column-4 #twitter:hover{background:#3a90da}
