@@ -45,7 +45,7 @@ class JConfig {
 	public $MetaDesc = '';
 	public $MetaKeys = '';
 	public $MetaTitle = '1';
-	public $MetaAuthor = '1';
+	public $MetaAuthor = '0';
 	public $MetaVersion = '0';
 	public $robots = '';
 	public $sef = '1';

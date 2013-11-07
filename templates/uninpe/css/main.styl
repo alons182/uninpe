@@ -25,7 +25,7 @@ body
 
 		#logo
 			display inline-block
-			padding .5em 1em
+			padding 2em 1em 0
 			vertical-align top
 			width 300px
 
@@ -37,14 +37,28 @@ body
 
 			#info 
 				color #fff
-				font-size 12px
+				font-size 18px
+				text-align right
 
 				a
-					border-right 1px solid #fff
+					border-left 1px solid #fff
 					color #FFF
 					padding 0.5em
 					text-decoration none
 					text-transform uppercase
+				.custom_idiomas
+					font-size 11px
+					//text-align right
+
+					a
+						border-left none
+						border-right 1px solid #fff
+						padding 0.5em
+					a:hover
+						text-decoration underline
+					#idioma-en
+						border-right none !important
+
 
 			span >	a 
 				color #FFF
@@ -52,8 +66,8 @@ body
 				
 
 			#buscador
-				margin 20px 0 0 0
-				width 300px
+				//margin 20px 0 0 0
+				//width 300px
 
 				.element-invisible
 					display none
@@ -111,6 +125,21 @@ body
 	            	padding 1em
 	            	width 218px
 
+					.conocenos_video
+						margin-top 20px
+						display inline-block
+						vertical-align top 
+						width 200px
+						//min-height 295px
+						padding .5em
+
+						h1
+							font-size 18px
+							text-align center
+							color #fff
+						img 
+							width 100%
+
 					ul 
 						//margin 0
 						padding 0 0 0 10px
@@ -144,20 +173,30 @@ body
 
 	#middle-content
 		margin-bottom 20px
-		.programa:hover
+		
+		
+		#pturistico
 			background $verde
-			h1
-				color #FFF
-		.programa
+		#pempresarial
+			background $azul
+
+		#pturistico:hover, #pempresarial:hover
 			background $gris_claro2
+
+			h1
+				color $gris_oscuro
+
+		.programa
+			
 			display inline-block
-			margin-right -0.2em
+			margin-right -0.25em
 			vertical-align top
-			width 354px
+			width 480px
 
 			h1
 				font-size 18px
 				text-align center
+				color #FFF
 			ul 
 				margin 0
 				padding 0
@@ -167,7 +206,8 @@ body
 					
 					font-size 13px
 					text-align right
-					margin 1em
+					margin 1em auto
+					width 80%
 
 					a 
 						
@@ -206,20 +246,7 @@ body
 					#admin_calidad:hover,#admin_empresas:hover
 						background-color #fff
 						color $gris_claro
-		.conocenos_video
-			background $gris_claro
-			display inline-block
-			vertical-align top 
-			width 234px
-			min-height 295px
-			padding .5em
-
-			h1
-				font-size 18px
-				text-align center
-				color #fff
-			img 
-				width 100%
+		
 			
 
 			
@@ -302,6 +329,7 @@ body
 			//background $gris_claro2
 			display block
 			padding .5em
+			font-size 18px
 			
 			ul
 				margin 0
@@ -326,11 +354,11 @@ body
 				margin 0
 
 
-		#left,#main,.item-page,.search ,#k2Container, .blog  
+		#left,#main,.item-page,.search ,#k2Container, .blog, #right 
 			display inline-block
 			margin-right -0.2em
 			vertical-align top
-		#left
+		#left,#right
 			background $gris_claro2
 			width 250px
 			padding .5em
@@ -364,6 +392,25 @@ body
 					.separator
 						font-size 1em
 						font-weight bold
+			.conocenos_video
+				margin-top 0px
+				display inline-block
+				vertical-align top 
+				width 235px
+				//min-height 295px
+				padding .5em
+
+				h1
+					font-size 18px
+					text-align center
+					color $gris_oscuro
+				img 
+					width 100%
+
+		.bottom-content
+			.cycle-slideshow
+				img
+					margin .5em
 
 
 		#main,.item-page,.search, #k2Container,.blog  
@@ -411,10 +458,40 @@ body
 
 	footer
 		background $gris_oscuro
-		color #ebeae6
+		
 		margin-top 20px
 
-		a 
+		.menu-footer
+			text-align center
+			ul 
+				margin 0
+				padding 0
+
+				li 
+					display inline-block
+					padding .5em .5em
+					//vertical-align top
+					//float left 
+
+					a 
+						font-size 12px
+						color #ffffff
+						//font-weight 700
+						text-decoration none
+						//text-transform uppercase
+					a:hover
+						color $gris_claro
+				.current a 
+					color $verde
+		#copyright
+			padding .5em
+			text-align center
+			font-size 12px
+			color #fff
+			p 
+				margin 0
+
+		/*a 
 			color #ebeae6
 			text-decoration none
 		.column
@@ -467,7 +544,7 @@ body
 				margin-right .5em
 
 			#facebook:hover,#twitter:hover
-				background $verde	
+				background $verde	*/
 
 
 

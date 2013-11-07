@@ -33,13 +33,13 @@
 		<position>left-content</position>
 		<position>center-content</position>
 		<position>testimonials</position>
-		<position>column-1</position>
-		<position>column-2</position>
-		<position>column-3</position>
-		<position>column-4</position>
+		<position>menu-footer</position>
+		<position>copyright</position>
 		<position>breadcumbs</position>
 		<position>title</position>
 		<position>left</position>
+		<position>right</position>
+		<position>bottom-content</position>
 
 		
 		

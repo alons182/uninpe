@@ -111,25 +111,32 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                     <jdoc:include type="modules" name="left" style="xhtml" />
                 </div>
                 <?php endif; ?>
+                
                
                     <jdoc:include type="component" />
-                
+
+                <?php if ($this->countModules('right')) : ?>
+                <div id="right">
+                    <jdoc:include type="modules" name="right" style="xhtml" />
+                </div>
+                <?php endif; ?>
+                 <?php if ($this->countModules('bottom-content')) : ?>
+                    <div class="bottom-content">
+                        <jdoc:include type="modules" name="bottom-content" style="xhtml" />
+                    </div>
+                 <?php endif; ?>
                
             </section>
             <footer>
-                <div class="column column-1">
-                    <jdoc:include type="modules" name="column-1" style="none" />
-                </div>
-                <div class="column column-2">
-                    <jdoc:include type="modules" name="column-2" style="none" />
+               
+                <div class="menu-footer">
+                    <jdoc:include type="modules" name="menu-footer" style="none" />
                     
                 </div>
-                <div class="column column-3">
-                    <jdoc:include type="modules" name="column-3" style="xhtml" />
+                <div id="copyright">
+                    <jdoc:include type="modules" name="copyright" style="none" />
                 </div>
-                <div class="column column-4">
-                    <jdoc:include type="modules" name="column-4" style="none" />
-                </div>
+                
             </footer>
 
         </div>
@@ -140,7 +147,8 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
         
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.10.1.min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.validate.min.js"></script>
-
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.min.js"></script>
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.carousel.min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
         <script>
