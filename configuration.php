@@ -63,4 +63,7 @@ class JConfig {
 	public $feed_email = 'author';
 	public $cookie_domain = '';
 	public $cookie_path = '';
+	public $mailonline = '1';
+	public $frontediting = '1';
+	public $asset_id = '1';
 }
