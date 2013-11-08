@@ -22,7 +22,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper header #menu ul li{padding:.5em .5em;float:left;}
 #wrapper header #menu ul li a{font-size:14px;color:#53565a;font-weight:700;text-decoration:none;text-transform:uppercase}
 #wrapper header #menu ul li a:hover{color:#a7a7a7}
-#wrapper header #menu ul .current a{color:#f00}
+#wrapper header #menu ul .current a{color:#a6c31e}
 #wrapper #banner{height:350px;width:100%;}
 #wrapper #banner #slideshow{height:350px;margin:0 auto;width:100%;}
 #wrapper #banner #slideshow .slide{background-position:center top;background-repeat:no-repeat;height:100%;text-align:center;width:100%;}
@@ -36,9 +36,9 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #banner h1 strong{font-size:30px;font-weight:700}
 #wrapper #banner p{font-size:14px;margin:2em 0}
 #wrapper #banner a{background:#fff;color:#53565a;padding:.3em 1.5em;text-decoration:none}
-#wrapper #banner a:hover{background:#f00;color:#fff}
+#wrapper #banner a:hover{background:#a6c31e;color:#fff}
 #wrapper #middle-content{margin-bottom:20px;}
-#wrapper #middle-content #pturistico{background:#f00}
+#wrapper #middle-content #pturistico{background:#a6c31e}
 #wrapper #middle-content #pempresarial{background:#3a90da}
 #wrapper #middle-content #pturistico:hover,#wrapper #middle-content #pempresarial:hover{background:#ebeae6;}
 #wrapper #middle-content #pturistico:hover h1,#wrapper #middle-content #pempresarial:hover h1{color:#53565a}
@@ -59,7 +59,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido{background:#ebeae6;}
 #wrapper #contenido #center-content .content{display:inline-block;height:340px;margin-right:-.2em;overflow:hidden;padding:.5em;position:relative;vertical-align:top;}
 #wrapper #contenido #center-content .content ul{margin:0;padding:0;list-style:none;}
-#wrapper #contenido #center-content .content ul li .mod-articles-category-title{color:#f00;font-size:14px;font-weight:400;margin:0;text-decoration:none}
+#wrapper #contenido #center-content .content ul li .mod-articles-category-title{color:#a6c31e;font-size:14px;font-weight:400;margin:0;text-decoration:none}
 #wrapper #contenido #center-content .content ul li a:hover{text-decoration:underline}
 #wrapper #contenido #center-content .content h3{font-size:24px;text-transform:uppercase;margin-bottom:10px}
 #wrapper #contenido #center-content .content p{font-size:13px}
@@ -95,7 +95,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido #main .article-info-term,#wrapper #contenido .item-page .article-info-term,#wrapper #contenido .search .article-info-term,#wrapper #contenido #k2Container .article-info-term,#wrapper #contenido .blog .article-info-term{display:none}
 #wrapper #contenido .blog h2{margin-bottom:0}
 #wrapper #contenido .blog .items-row{border-bottom:1px solid #a7a7a7;padding:.5em}
-#wrapper #contenido .blog .readmore a{background:#f00;text-decoration:none;color:#fff;padding:.3em}
+#wrapper #contenido .blog .readmore a{background:#a6c31e;text-decoration:none;color:#fff;padding:.3em}
 #wrapper #contenido .b2jcontainer{border:none}
 #wrapper footer{background:#53565a;margin-top:20px;}
 #wrapper footer .menu-footer{text-align:center;}
@@ -103,6 +103,6 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper footer .menu-footer ul li{display:inline-block;padding:.5em .5em;}
 #wrapper footer .menu-footer ul li a{font-size:12px;color:#fff;text-decoration:none}
 #wrapper footer .menu-footer ul li a:hover{color:#a7a7a7}
-#wrapper footer .menu-footer ul .current a{color:#f00}
+#wrapper footer .menu-footer ul .current a{color:#a6c31e}
 #wrapper footer #copyright{padding:.5em;text-align:center;font-size:12px;color:#fff;}
 #wrapper footer #copyright p{margin:0}
