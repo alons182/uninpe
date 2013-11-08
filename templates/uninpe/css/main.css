@@ -96,6 +96,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido .blog h2{margin-bottom:0}
 #wrapper #contenido .blog .items-row{border-bottom:1px solid #a7a7a7;padding:.5em}
 #wrapper #contenido .blog .readmore a{background:#a6c31e;text-decoration:none;color:#fff;padding:.3em}
+#wrapper #contenido .b2jcontainer{border:none}
 #wrapper footer{background:#53565a;margin-top:20px;}
 #wrapper footer .menu-footer{text-align:center;}
 #wrapper footer .menu-footer ul{margin:0;padding:0;}
