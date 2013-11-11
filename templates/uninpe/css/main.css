@@ -4,6 +4,7 @@
 .icon-facebook:before{content:"\e003"}
 .icon-twitter:before{content:"\e004"}
 body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:14px;line-height:1.4}
+.btn{background:#53565a;padding:.5em;border-bottom:2px solid #000;color:#fff;text-decoration:none;display:inline;text-align:center}
 #wrapper{margin:0 auto;width:960px;}
 #wrapper header{background:#a6c31e;padding-top:0;}
 #wrapper header #logo{display:inline-block;padding:2em 1em 0;vertical-align:top;width:300px}
@@ -11,7 +12,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper header #info-header #info{color:#fff;font-size:18px;text-align:right;}
 #wrapper header #info-header #info a{border-left:1px solid #fff;color:#fff;padding:.5em;text-decoration:none;text-transform:uppercase}
 #wrapper header #info-header #info .custom_idiomas{font-size:11px;}
-#wrapper header #info-header #info .custom_idiomas a{border-left:none;border-right:1px solid #fff;padding:.5em}
+#wrapper header #info-header #info .custom_idiomas a{border-left:none;border-right:1px solid #fff;padding:.5em;}
 #wrapper header #info-header #info .custom_idiomas a:hover{text-decoration:underline}
 #wrapper header #info-header #info .custom_idiomas #idioma-en{border-right:none !important}
 #wrapper header #info-header span > a{color:#fff;border-right:none !important}
@@ -20,7 +21,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper header #menu{background:#fff;overflow:hidden;width:100%;}
 #wrapper header #menu ul{margin:0;padding:0;}
 #wrapper header #menu ul li{padding:.5em .5em;float:left;}
-#wrapper header #menu ul li a{font-size:14px;color:#53565a;font-weight:700;text-decoration:none;text-transform:uppercase}
+#wrapper header #menu ul li a{font-size:14px;color:#53565a;font-weight:700;text-decoration:none;text-transform:uppercase;}
 #wrapper header #menu ul li a:hover{color:#a7a7a7}
 #wrapper header #menu ul .current a{color:#a6c31e}
 #wrapper #banner{height:350px;width:100%;}
@@ -35,7 +36,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #banner h1{font-size:24px;font-weight:400;margin:0;text-transform:uppercase;}
 #wrapper #banner h1 strong{font-size:30px;font-weight:700}
 #wrapper #banner p{font-size:14px;margin:2em 0}
-#wrapper #banner a{background:#fff;color:#53565a;padding:.3em 1.5em;text-decoration:none}
+#wrapper #banner a{background:#fff;color:#53565a;padding:.3em 1.5em;text-decoration:none;}
 #wrapper #banner a:hover{background:#a6c31e;color:#fff}
 #wrapper #middle-content{margin-bottom:20px;}
 #wrapper #middle-content #pturistico{background:#a6c31e}
@@ -59,8 +60,8 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido{background:#ebeae6;}
 #wrapper #contenido #center-content .content{display:inline-block;height:340px;margin-right:-.2em;overflow:hidden;padding:.5em;position:relative;vertical-align:top;}
 #wrapper #contenido #center-content .content ul{margin:0;padding:0;list-style:none;}
-#wrapper #contenido #center-content .content ul li .mod-articles-category-title{color:#a6c31e;font-size:14px;font-weight:400;margin:0;text-decoration:none}
-#wrapper #contenido #center-content .content ul li a:hover{text-decoration:underline}
+#wrapper #contenido #center-content .content ul li .mod-articles-category-title{color:#a6c31e;font-size:14px;font-weight:400;margin:0;text-decoration:none;}
+#wrapper #contenido #center-content .content ul li .mod-articles-category-title:hover{text-decoration:underline}
 #wrapper #contenido #center-content .content h3{font-size:24px;text-transform:uppercase;margin-bottom:10px}
 #wrapper #contenido #center-content .content p{font-size:13px}
 #wrapper #contenido #center-content .left-content{background:#ebeae6}
@@ -78,7 +79,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido #left h3,#wrapper #contenido #right h3{font-size:1em}
 #wrapper #contenido #left ul,#wrapper #contenido #right ul{margin:20px 0;padding:0 0 0 20px;}
 #wrapper #contenido #left ul li,#wrapper #contenido #right ul li{list-style:disc;margin-bottom:5px;}
-#wrapper #contenido #left ul li a,#wrapper #contenido #right ul li a{color:#53565a;display:block;font-size:14px;padding:.3em .5em;text-decoration:none}
+#wrapper #contenido #left ul li a,#wrapper #contenido #right ul li a{color:#53565a;display:block;font-size:14px;padding:.3em .5em;text-decoration:none;}
 #wrapper #contenido #left ul li a:hover,#wrapper #contenido #right ul li a:hover{background:#53565a;color:#fff}
 #wrapper #contenido #left ul .parent,#wrapper #contenido #right ul .parent{list-style:none;}
 #wrapper #contenido #left ul .parent .separator,#wrapper #contenido #right ul .parent .separator{font-size:1em;font-weight:bold}
@@ -97,11 +98,14 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido .blog .items-row{border-bottom:1px solid #a7a7a7;padding:.5em}
 #wrapper #contenido .blog .readmore a{background:#a6c31e;text-decoration:none;color:#fff;padding:.3em}
 #wrapper #contenido .b2jcontainer{border:none}
+#wrapper #contenido .moduletable_acceso_plataforma{text-align:center;background:#fff;padding:.5em;}
+#wrapper #contenido .moduletable_acceso_plataforma .btn{background:#a6c31e;border-color:#6f8604;}
+#wrapper #contenido .moduletable_acceso_plataforma .btn:hover{background:#3a90da;border-color:#044780}
 #wrapper footer{background:#3a90da;margin-top:20px;}
 #wrapper footer .menu-footer{text-align:center;}
 #wrapper footer .menu-footer ul{margin:0;padding:0;}
 #wrapper footer .menu-footer ul li{display:inline-block;padding:.5em .5em;}
-#wrapper footer .menu-footer ul li a{font-size:12px;color:#fff;text-decoration:none}
+#wrapper footer .menu-footer ul li a{font-size:12px;color:#fff;text-decoration:none;}
 #wrapper footer .menu-footer ul li a:hover{color:#a7a7a7}
 #wrapper footer .menu-footer ul .current a{color:#a6c31e}
 #wrapper footer #copyright{padding:.5em;text-align:center;font-size:12px;color:#fff;}
