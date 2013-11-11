@@ -6,7 +6,7 @@
 body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:14px;line-height:1.4}
 .btn{background:#53565a;padding:.5em;border-bottom:2px solid #000;color:#fff;text-decoration:none;display:inline;text-align:center}
 #wrapper{margin:0 auto;width:960px;}
-#wrapper header{background:#a6c31e;padding-top:0;}
+#wrapper header{background:#53565a;padding-top:0;}
 #wrapper header #logo{display:inline-block;padding:2em 1em 0;vertical-align:top;width:300px}
 #wrapper header #info-header{float:right;padding:1em;}
 #wrapper header #info-header #info{color:#fff;font-size:18px;text-align:right;}
@@ -101,7 +101,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido .moduletable_acceso_plataforma{text-align:center;background:#fff;padding:.5em;}
 #wrapper #contenido .moduletable_acceso_plataforma .btn{background:#a6c31e;border-color:#6f8604;}
 #wrapper #contenido .moduletable_acceso_plataforma .btn:hover{background:#3a90da;border-color:#044780}
-#wrapper footer{background:#3a90da;margin-top:20px;}
+#wrapper footer{background:#53565a;margin-top:20px;}
 #wrapper footer .menu-footer{text-align:center;}
 #wrapper footer .menu-footer ul{margin:0;padding:0;}
 #wrapper footer .menu-footer ul li{display:inline-block;padding:.5em .5em;}
