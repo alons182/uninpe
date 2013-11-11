@@ -5,7 +5,7 @@
 .icon-twitter:before{content:"\e004"}
 body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:14px;line-height:1.4}
 #wrapper{margin:0 auto;width:960px;}
-#wrapper header{background:#53565a;padding-top:0;}
+#wrapper header{background:#a6c31e;padding-top:0;}
 #wrapper header #logo{display:inline-block;padding:2em 1em 0;vertical-align:top;width:300px}
 #wrapper header #info-header{float:right;padding:1em;}
 #wrapper header #info-header #info{color:#fff;font-size:18px;text-align:right;}
@@ -97,7 +97,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido .blog .items-row{border-bottom:1px solid #a7a7a7;padding:.5em}
 #wrapper #contenido .blog .readmore a{background:#a6c31e;text-decoration:none;color:#fff;padding:.3em}
 #wrapper #contenido .b2jcontainer{border:none}
-#wrapper footer{background:#53565a;margin-top:20px;}
+#wrapper footer{background:#3a90da;margin-top:20px;}
 #wrapper footer .menu-footer{text-align:center;}
 #wrapper footer .menu-footer ul{margin:0;padding:0;}
 #wrapper footer .menu-footer ul li{display:inline-block;padding:.5em .5em;}
