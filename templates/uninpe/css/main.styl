@@ -1,3 +1,4 @@
+@import "nib"
 @import "iconos.styl"
 
 $gris_oscuro = #53565a
@@ -230,8 +231,6 @@ body
 						text-decoration none
 						padding .5em
 						border-radius 10px
-						-webkit-box-shadow 0 5px 6px 1px rgba(0, 0, 0, 0.5)
-						-moz-box-shadow 0 5px 6px 1px rgba(0, 0, 0, 0.5)
 						box-shadow 0 5px 6px 1px rgba(0, 0, 0, 0.5)
 
 						.subtitle
@@ -302,38 +301,31 @@ body
 					font-size 24px
 					text-transform uppercase
 					margin-bottom 10px
+					margin-top 5px
 				
 				p 
 					font-size 13px
-				/*a 
-					background $gris_oscuro
-					bottom 10px
-					color #FFF
-					display block
-					float right
-					font-size 20px
-					height 30px
-					position absolute
-					right 10px
-					text-align center
-					text-decoration none
-					width 30px*/
-				/*a:hover
-					background $verde*/
+				
 
 
 
 			.left-content
 				background $gris_claro2
 
-			.left-content, .center-content
-				width 220px
+			.left-content, .center-content, .testimonials
+				width 294px
+				box-shadow 0 3px 3px 0px rgba(0, 0, 0, 0.5)
+				border 1px solid $gris_claro
+				margin 1px
+				//border-radius 5px
+
 
 			.testimonials
+				border-color $gris_oscuro
 				background $gris_oscuro
 				color #fff
 				padding .5em 1em 
-				width 455px
+				//width 455px
 
 				.fecha, .autor
 					display block

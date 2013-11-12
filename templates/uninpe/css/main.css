@@ -47,7 +47,7 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #middle-content .programa h1{font-size:18px;text-align:center;color:#fff}
 #wrapper #middle-content .programa ul{margin:0;padding:0;list-style:none;}
 #wrapper #middle-content .programa ul li{font-size:13px;text-align:right;margin:1em auto;width:80%;}
-#wrapper #middle-content .programa ul li a{display:block;text-transform:uppercase;color:#fff;text-decoration:none;padding:.5em;border-radius:10px;-webkit-box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);-moz-box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);}
+#wrapper #middle-content .programa ul li a{display:block;text-transform:uppercase;color:#fff;text-decoration:none;padding:.5em;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);}
 #wrapper #middle-content .programa ul li a .subtitle{display:block;text-transform:none;font-size:11px}
 #wrapper #middle-content .programa ul li a:hover{background-color:#fff;color:#a7a7a7}
 #wrapper #middle-content .programa ul li #admin_hotelera{background:url("../img/bg_admin_hotelera.png") no-repeat top left #a7a7a7}
@@ -62,11 +62,11 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper #contenido #center-content .content ul{margin:0;padding:0;list-style:none;}
 #wrapper #contenido #center-content .content ul li .mod-articles-category-title{color:#a6c31e;font-size:14px;font-weight:400;margin:0;text-decoration:none;}
 #wrapper #contenido #center-content .content ul li .mod-articles-category-title:hover{text-decoration:underline}
-#wrapper #contenido #center-content .content h3{font-size:24px;text-transform:uppercase;margin-bottom:10px}
+#wrapper #contenido #center-content .content h3{font-size:24px;text-transform:uppercase;margin-bottom:10px;margin-top:5px}
 #wrapper #contenido #center-content .content p{font-size:13px}
 #wrapper #contenido #center-content .left-content{background:#ebeae6}
-#wrapper #contenido #center-content .left-content,#wrapper #contenido #center-content .center-content{width:220px}
-#wrapper #contenido #center-content .testimonials{background:#53565a;color:#fff;padding:.5em 1em;width:455px;}
+#wrapper #contenido #center-content .left-content,#wrapper #contenido #center-content .center-content,#wrapper #contenido #center-content .testimonials{width:294px;-webkit-box-shadow:0 3px 3px 0 rgba(0,0,0,0.5);box-shadow:0 3px 3px 0 rgba(0,0,0,0.5);border:1px solid #a7a7a7;margin:1px}
+#wrapper #contenido #center-content .testimonials{border-color:#53565a;background:#53565a;color:#fff;padding:.5em 1em;}
 #wrapper #contenido #center-content .testimonials .fecha,#wrapper #contenido #center-content .testimonials .autor{display:block;font-style:italic}
 #wrapper #contenido #breadcumbs{display:block;padding:.5em;font-size:18px;}
 #wrapper #contenido #breadcumbs ul{margin:0;padding:0;}
