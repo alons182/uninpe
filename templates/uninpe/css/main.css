@@ -68,7 +68,7 @@ a:hover{color:#a6c31e}
 #wrapper #middle-content .programa ul .item-134 a,#wrapper #middle-content .parent ul .item-134 a,#wrapper #middle-content .programa ul .item-159 a,#wrapper #middle-content .parent ul .item-159 a{background:url("../img/bg_admin_calidad.png") no-repeat top left #a7a7a7}
 #wrapper #middle-content .programa ul .item-135 a,#wrapper #middle-content .parent ul .item-135 a,#wrapper #middle-content .programa ul .item-161 a,#wrapper #middle-content .parent ul .item-161 a{background:url("../img/bg_admin_empresas.png") no-repeat top left #a7a7a7}
 #wrapper #middle-content .programa ul .item-138 a,#wrapper #middle-content .parent ul .item-138 a,#wrapper #middle-content .programa ul .item-164 a,#wrapper #middle-content .parent ul .item-164 a{background:url("../img/bg_admin_contable.png") no-repeat top left #a7a7a7}
-#wrapper #bottom-content{background:#fff}
+#wrapper .bottom-content{background:#fff}
 #wrapper #contenido{background:#ebeae6;}
 #wrapper #contenido #center-content .content{display:inline-block;height:340px;margin-right:-.2em;overflow:hidden;padding:.5em;position:relative;vertical-align:top;}
 #wrapper #contenido #center-content .content ul{margin:0;padding:0;list-style:none;}
