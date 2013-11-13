@@ -112,6 +112,7 @@ a:hover{color:#a6c31e}
 #wrapper footer .menu-footer ul .current a{color:#a6c31e}
 #wrapper footer #copyright{padding:.5em;text-align:center;font-size:12px;color:#fff;}
 #wrapper footer #copyright p{margin:0}
+iframe.autoHeight{min-height:550px}
 .joomdle_category_list_item_title,.joomdle_course_list_item_title,.joomdle_section_list_item_title{background:#53565a;color:#fff;}
 .joomdle_category_list_item_title a,.joomdle_course_list_item_title a,.joomdle_section_list_item_title a{color:#fff;font-weight:normal;}
 .joomdle_category_list_item_title a:hover,.joomdle_course_list_item_title a:hover,.joomdle_section_list_item_title a:hover{color:#a6c31e}
