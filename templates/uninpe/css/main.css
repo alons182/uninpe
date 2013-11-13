@@ -4,6 +4,8 @@
 .icon-facebook:before{content:"\e003"}
 .icon-twitter:before{content:"\e004"}
 body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:14px;line-height:1.4}
+a{color:#53565a;}
+a:hover{color:#a6c31e}
 .btn{background:#53565a;padding:.5em;border-bottom:2px solid #000;color:#fff;text-decoration:none;display:inline;text-align:center}
 #wrapper{margin:0 auto;width:960px;}
 #wrapper header{background:#53565a;padding-top:0;}
@@ -110,3 +112,8 @@ body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:
 #wrapper footer .menu-footer ul .current a{color:#a6c31e}
 #wrapper footer #copyright{padding:.5em;text-align:center;font-size:12px;color:#fff;}
 #wrapper footer #copyright p{margin:0}
+.joomdle_category_list_item_title,.joomdle_course_list_item_title{background:#53565a;}
+.joomdle_category_list_item_title a,.joomdle_course_list_item_title a{color:#fff;}
+.joomdle_category_list_item_title a:hover,.joomdle_course_list_item_title a:hover{color:#a6c31e}
+.joomdle_course_list_item_description{background:#ebeae6}
+.joomdle_list_description{background:#53565a;color:#fff}
