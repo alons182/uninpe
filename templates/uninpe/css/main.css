@@ -102,7 +102,7 @@ a:hover{color:#a6c31e}
 #wrapper #contenido .b2jcontainer{border:none}
 #wrapper #contenido .moduletable_acceso_plataforma{text-align:center;background:#fff;padding:.5em;}
 #wrapper #contenido .moduletable_acceso_plataforma .btn{background:#a6c31e;border-color:#6f8604;}
-#wrapper #contenido .moduletable_acceso_plataforma .btn:hover{background:#3a90da;border-color:#044780}
+#wrapper #contenido .moduletable_acceso_plataforma .btn:hover{background:#3a90da;color:#fff;border-color:#044780}
 #wrapper footer{background:#53565a;margin-top:20px;}
 #wrapper footer .menu-footer{text-align:center;}
 #wrapper footer .menu-footer ul{margin:0;padding:0;}
