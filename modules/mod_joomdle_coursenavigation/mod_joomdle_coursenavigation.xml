@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Joomdle Course navigation</name>
+	<author>Antonio Duran</author>
+	<creationDate>December 2011</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>antonio.duran.terres@gmail.com</authorEmail>
+	<authorUrl>www.joomldle.com</authorUrl>
+	<version>0.7</version>
+	<description>Shows course navigation block</description>
+	<files>
+		<filename module="mod_joomdle_coursenavigation">mod_joomdle_coursenavigation.php</filename>
+		<filename module="mod_joomdle_coursenavigation">index.html</filename>
+		<filename module="mod_joomdle_coursenavigation">helper.php</filename>
+		<filename module="mod_joomdle_coursenavigation">tmpl/default.php</filename>
+	</files>
+	  <languages>
+		<language tag="en-GB">language/en-GB.mod_joomdle_coursenavigation.ini</language>
+		<language tag="es-ES">language/es-ES.mod_joomdle_coursenavigation.ini</language>
+		<language tag="de-DE">language/de-DE.mod_joomdle_coursenavigation.ini</language>
+		<language tag="fr-FR">language/fr-FR.mod_joomdle_coursenavigation.ini</language>
+		<language tag="it-IT">language/it-IT.mod_joomdle_coursenavigation.ini</language>
+	  </languages>
+<config><fields name="params"><fieldset name="basic">
+			<field name="show_coursemates" type="radio" default="1" label="COM_JOOMDLE_SHOW_COURSEMATES" description="COM_JOOMDLE_SHOW_COURSEMATES">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="show_coursenews" type="radio" default="1" label="COM_JOOMDLE_SHOW_COURSENEWS" description="COM_JOOMDLE_SHOW_COURSENEWS">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="show_courseevents" type="radio" default="1" label="COM_JOOMDLE_SHOW_COURSEEVENTS" description="COM_JOOMDLE_SHOW_COURSEEVENTS">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="show_coursegrades" type="radio" default="1" label="COM_JOOMDLE_SHOW_COURSEGRADES" description="COM_JOOMDLE_SHOW_COURSEGRADES">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="show_coursegroup" type="radio" default="0" label="COM_JOOMDLE_SHOW_COURSEGROUP" description="COM_JOOMDLE_SHOW_COURSEGROUP">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+	        <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+    </fieldset></fields></config>
+</extension>

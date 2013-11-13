@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Joomdle Course mates</name>
+	<author>Antonio Duran</author>
+	<creationDate>December 2011</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>antonio.duran.terres@gmail.com</authorEmail>
+	<authorUrl>www.joomdle.com</authorUrl>
+	<version>0.7</version>
+	<description>Shows course mates</description>
+	<files>
+		<filename module="mod_joomdle_coursemates">mod_joomdle_coursemates.php</filename>
+		<filename module="mod_joomdle_coursemates">index.html</filename>
+		<filename module="mod_joomdle_coursemates">helper.php</filename>
+		<filename module="mod_joomdle_coursemates">tmpl/default.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_joomdle_coursemates.ini</language>
+		<language tag="es-ES">language/es-ES.mod_joomdle_coursemates.ini</language>
+		<language tag="de-DE">language/de-DE.mod_joomdle_coursemates.ini</language>
+		<language tag="fr-FR">language/fr-FR.mod_joomdle_coursemates.ini</language>
+		<language tag="it-IT">language/it-IT.mod_joomdle_coursemates.ini</language>
+	</languages>
+
+	<config><fields name="params"><fieldset name="basic">
+	        <field name="limit" type="text" default="20" label="COM_JOOMDLE_SHOW_STUDENTS_MAX" description="COM_JOOMDLE_SHOW_STUDENTS_MAX" />
+			<field name="use_tooltips" type="radio" default="1" label="COM_JOOMDLE_USE_TOOLTIPS" description="COM_JOOMDLE_USE_TOOLTIPS">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+    </fieldset></fields></config>
+</extension>

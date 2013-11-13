@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="user" client="site" order="100" folder="joomdlehooks" method="upgrade">
+	<name>User hooks - Joomdle</name>
+	<author>Antonio Duran Terres</author>
+	<authorEmail>antonio.duran.terres@gmail.com</authorEmail>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>antonio.duran.terres@gmail.com</authorEmail>
+	<authorUrl>www.joomdle.com</authorUrl>
+	<version>0.24</version>
+	<description>Joomdle hooks for Moodle Single Sign On</description>
+	<files>
+		<filename plugin="joomdlehooks">joomdlehooks.php</filename>
+	</files>
+	  <languages>
+		<language tag="en-GB">language/en-GB.plg_user_joomdlehooks.ini</language>
+		<language tag="es-ES">language/es-ES.plg_user_joomdlehooks.ini</language>
+		<language tag="de-DE">language/de-DE.plg_user_joomdlehooks.ini</language>
+		<language tag="fr-FR">language/fr-FR.plg_user_joomdlehooks.ini</language>
+		<language tag="it-IT">language/it-IT.plg_user_joomdlehooks.ini</language>
+	  </languages>
+	<params>
+	</params>
+</extension>

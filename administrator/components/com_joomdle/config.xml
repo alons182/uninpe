@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<config><fields name="params"><fieldset name="basic">
+	     <field type="text" name="MOODLE_URL" size="50" label="COM_JOOMDLE_MOODLE_SERVER_URL" description="COM_JOOMDLE_MOODLE_SERVER_URL_DESCRIPTION" />
+	<field name="moodle_version" type="radio" default="19" label="COM_JOOMDLE_MOODLE_VERSION" description="COM_JOOMDLE_MOODLE_VERSION_DESCRIPTION">
+		 <option value="19">Moodle 1.9.x</option>
+		  <option value="20">Moodle 2.0.x</option>
+	   </field>
+	     <field type="text" name="auth_token" size="50" label="COM_JOOMDLE_MOODLE_AUTH_TOKEN" description="COM_JOOMDLE_MOODLE_AUTH_TOKEN_DESCRIPTION" />
+		<field name="auto_create_users" type="radio" default="1" label="COM_JOOMDLE_AUTO_CREATE_USERS" description="COM_JOOMDLE_AUTO_CREATE_USERS_DESCRIPTION">
+			  <option value="1">Yes</option>
+			 <option value="0">No</option>
+		   </field>
+		<field name="auto_delete_users" type="radio" default="1" label="COM_JOOMDLE_AUTO_DELETE_USERS" description="COM_JOOMDLE_AUTO_DELETE_USERS_DESCRIPTION">
+			  <option value="1">Yes</option>
+			 <option value="0">No</option>
+		   </field>
+		<field name="auto_login_users" type="radio" default="0" label="COM_JOOMDLE_AUTO_LOGIN_USERS" description="COM_JOOMDLE_AUTO_LOGIN_USERS_DESCRIPTION">
+			 <option value="0">No</option>
+			  <option value="1">Yes</option>
+		   </field>
+		<field name="connection_method" type="radio" default="fgc" label="COM_JOOMDLE_CONNECTION_METHOD" description="COM_JOOMDLE_CONNECTION_METHOD_DESCRIPTION">
+			  <option value="fgc">file_get_contents</option>
+			 <option value="curl">cURL</option>
+		   </field>
+	     <field type="text" name="internal_ip" size="50" label="COM_JOOMDLE_INTERNAL_IP" description="COM_JOOMDLE_INTERNAL_IP_DESCRIPTION" />
+		<field name="redirectless_sso" type="radio" default="0" label="COM_JOOMDLE_REDIRECTLESS_SSO" description="COM_JOOMDLE_REDIRECTLESS_SSO_DESCRIPTION">
+			 <option value="0">No</option>
+			  <option value="1">Yes</option>
+		   </field>
+		<field name="redirectless_logout" type="radio" default="0" label="COM_JOOMDLE_REDIRECTLESS_LOGOUT" description="COM_JOOMDLE_REDIRECTLESS_LOGOUT_DESCRIPTION">
+			 <option value="0">No</option>
+			  <option value="1">Yes</option>
+		   </field>
+	<field name="@spacer" type="spacer" default="" label="" description="" />
+		<field name="linkstarget" type="radio" default="wrapper" label="COM_JOOMDLE_OPEN_MOODLE_LINKS" description="COM_JOOMDLE_OPEN MOODLE_LINKS_DESCRIPTION">
+                                <option value="self">Same window</option>
+                                <option value="new">New window</option>
+                                <option value="wrapper">Wrapper</option>
+                        </field>
+
+
+	      <field name="@spacer" type="spacer" default="" label="" description="" />
+                        <field name="scrolling" type="radio" default="auto" label="COM_JOOMDLE_WRAPPER_SCROLL_BARS" description="COM_JOOMDLE_WRAPPER_SCROLL_BARS_DESCRIPTION">
+                                <option value="no">No</option>
+                                <option value="yes">Yes</option>
+                                <option value="auto">Auto</option>
+                        </field>
+	<field name="width" type="text" size="5" default="100%" label="COM_JOOMDLE_WRAPPER_WIDTH" description="COM_JOOMDLE_WRAPPER_WIDTH_DESCRIPTION" />
+	<field name="height" type="text" size="5" default="1000" label="COM_JOOMDLE_WRAPPER_HEIGHT" description="COM_JOOMDLE_WRAPPER_HEIGHT_DESCRIPTION" />
+	<field name="autoheight" type="radio" default="1" label="COM_JOOMDLE_WRAPPER_AUTOHEIGHT" description="COM_JOOMDLE_WRAPPER_AUTOHEIGHT_DESCRIPTION">
+		 <option value="0">No</option>
+		  <option value="1">Yes</option>
+	   </field>
+	<field name="transparency" type="radio" default="0" label="COM_JOOMDLE_WRAPPER_TRANSPARENCY" description="COM_JOOMDLE_WRAPPER_TRANSPARENCY_DESCRIPTION">
+		 <option value="0">No</option>
+		  <option value="1">Yes</option>
+	   </field>
+	<field name="default_itemid" type="text" size="3" default="" label="COM_JOOMDLE_DEFAULT_ITEMID" description="COM_JOOMDLE_DEFAULT_ITEMID_DESCRIPTION" />
+	<field name="joomdle_itemid" type="text" size="3" default="" label="COM_JOOMDLE_JOOMDLE_ITEMID" description="COM_JOOMDLE_JOOMDLE_ITEMID_DESCRIPTION" />
+	<field name="shop_itemid" type="text" size="3" default="" label="COM_JOOMDLE_SHOP_ITEMID" description="COM_JOOMDLE_SHOP_ITEMID_DESCRIPTION" />
+	<field name="courseview_itemid" type="text" size="3" default="" label="COM_JOOMDLE_COURSEVIEW_ITEMID" description="COM_JOOMDLE_COURSEVIEW_ITEMID_DESCRIPTION" />
+
+	      <field name="@spacer" type="spacer" default="" label="" description="" />
+	<field name="show_detail_language" type="radio" default="0" label="COM_JOOMDLE_SHOW_LANGUAGE" description="COM_JOOMDLE_SHOW_LANGUAGE_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_enroldates" type="radio" default="0" label="COM_JOOMDLE_SHOW_ENROL_DATES" description="COM_JOOMDLE_SHOW_ENROL_DATES_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+
+    <field name="show_contents_link" type="radio" default="0" label="COM_JOOMDLE_SHOW_CONTENT_LINKS" description="COM_JOOMDLE_SHOW_CONTENT_LINKS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+	</field>
+
+   <field name="show_topìcs_link" type="radio" default="1" label="COM_JOOMDLE_SHOW_TOPICS_LINKS" description="COM_JOOMDLE_SHOW_TOPICS_LINKS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+        <field name="show_grading_system_link" type="radio" default="0" label="COM_JOOMDLE_SHOW_GRADING_SYSTEM_LINKS" description="COM_JOOMDLE_SHOW_GRADING_SYSTEM_LINKS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_teachers_link" type="radio" default="0" label="COM_JOOMDLE_SHOW_TEACHERS_LINKS" description="COM_JOOMDLE_SHOW_TEACHERS_LINKS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_goto_link" type="radio" default="0" label="COM_JOOMDLE_SHOW_GOTO_LINKS" description="COM_JOOMDLE_SHOW_GOTO_LINKS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_enrol_link" type="radio" default="1" label="COM_JOOMDLE_SHOW_ENROL_LINKS" description="COM_JOOMDLE_SHOW_ENROL_LINKS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_applicate_link" type="radio" default="0" label="COM_JOOMDLE_SHOW_APPLICATE_LINKS" description="COM_JOOMDLE_SHOW_ENROL_LINKS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_paypal_button" type="radio" default="0" label="COM_JOOMDLE_SHOW_PAYPAL_BUTTON" description="COM_JOOMDLE_SHOW_PAYPAL_BUTTON_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="free_courses_button" type="radio" default="enrol" label="COM_JOOMDLE_SHOW_FREE_COURSES_BUTTON" description="COM_JOOMDLE_SHOW_FREE_COURSES_BUTTON_DESCRIPTION">
+                                <option value="enrol">COM_JOOMDLE_ENROL_GOTO_BUTTON</option>
+                                <option value="goto">COM_JOOMDLE_GOTO_BUTTON</option>
+                                <option value="applicate">COM_JOOMDLE_APPLICATE_BUTTON</option>
+                        </field>
+    <field name="paid_courses_button" type="radio" default="buy" label="COM_JOOMDLE_SHOW_PAID_COURSES_BUTTON" description="COM_JOOMDLE_SHOW_PAID_COURSES_BUTTON_DESCRIPTION">
+                                <option value="buy">COM_JOOMDLE_BUY_BUTTON</option>
+                                <option value="paypal">COM_JOOMDLE_PAYPAL_BUTTON</option>
+                        </field>
+    <field name="goto_course_button" type="radio" default="moodle" label="COM_JOOMDLE_SHOW_PAID_COURSES_BUTTON" description="COM_JOOMDLE_SHOW_PAID_COURSES_BUTTON_DESCRIPTION">
+                                <option value="moodle">COM_JOOMDLE_MOODLE</option>
+                                <option value="courseview">COM_JOOMDLE_COURSE_VIEW</option>
+                                <option value="detail">COM_JOOMDLE_DETAIL_VIEW</option>
+                        </field>
+
+	<field name="show_detail_category" type="radio" default="0" label="COM_JOOMDLE_SHOW  " description="COM_JOOMDLE_SHOW_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_summary" type="radio" default="0" label="COM_JOOMDLE_SHOW  " description="COM_JOOMDLE_SHOW_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_language" type="radio" default="0" label="COM_JOOMDLE_SHOW  " description="COM_JOOMDLE_SHOW_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_startdate" type="radio" default="0" label="COM_JOOMDLE_SHOW_START_DATE" description="COM_JOOMDLE_SHOW_START_DATE_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_enroldates" type="radio" default="0" label="COM_JOOMDLE_SHOW_ENROL_DATES" description="COM_JOOMDLE_SHOW_ENROL_DATES_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_enrolperiod" type="radio" default="0" label="COM_JOOMDLE_SHOW_ENROL_PERIOD" description="COM_JOOMDLE_SHOW_ENROL_PERIOD_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_topicsnumber" type="radio" default="0" label="COM_JOOMDLE_SHOW_TOPICS_NUMBER " description="COM_JOOMDLE_SHOW_TOPICS_NUMBER_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_cost" type="radio" default="0" label="COM_JOOMDLE_SHOW_COST  " description="COM_JOOMDLE_SHOW_COST_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_application_motivation" type="radio" default="0" label="COM_JOOMDLE_REQUEST_MOTIVATION" description="COM_JOOMDLE_REQUEST_MOTIVATION_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="show_detail_application_experience" type="radio" default="0" label="COM_JOOMDLE_REQUEST_EXPERIENCE" description="COM_JOOMDLE_REQUEST_EXPERIENCE_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="" type="radio" default="0" label="COM_JOOMDLE_SHOW  " description="COM_JOOMDLE_SHOW_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+      <field name="@spacer" type="spacer" default="" label="" description="" />
+
+	<field name="topics_show_numbers" type="radio" default="1" label="COM_JOOMDLE_SHOW_TOPICS_NUMBERS" description="COM_JOOMDLE_SHOW_TOPICS_NUMBERS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+	<field name="coursecategory_show_categoy_info" type="radio" default="1" label="COM_JOOMDLE_SHOW_CATEGORY_INFO" description="COM_JOOMDLE_SHOW_CATEGORY_INFO_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+    <param name="coursecategory_show_buttons" type="radio" default="0" label="COM_JOOMDLE_SHOW_BUTTONS" description="COM_JOOMDLE_SHOW_BUTTONS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </param>
+
+
+	<field name="course_show_numbers" type="radio" default="1" label="COM_JOOMDLE_SHOW_TOPICS_NUMBERS" description="COM_JOOMDLE_SHOW_TOPICS_NUMBERS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+    <field name="course_show_summary" type="radio" default="1" label="COM_JOOMDLE_SHOW_TOPICS_SUMMARY" description="COM_JOOMDLE_SHOW_TOPICS_SUMMARY_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+    <field name="use_page_view" type="radio" default="1" label="COM_JOOMDLE_USE_PAGE_VIEW" description="COM_JOOMDLE_USE_PAGE_VIEW_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+
+    <field name="use_kunena_forums" type="radio" default="0" label="COM_JOOMDLE_USE_KUNENA_FORUMS" description="COM_JOOMDLE_USE_KUNENA_FORUMS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+
+    <param name="coursesabc_show_buttons" type="radio" default="0" label="COM_JOOMDLE_SHOW_BUTTONS" description="COM_JOOMDLE_SHOW_BUTTONS_DESCRIPTION">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </param>
+
+	<field name="shop_integration" type="radio" default="0" label="COM_JOOMDLE_USE_SHOP_INTEGRATION" description="COM_JOOMDLE_USE_SHOP_INTEGRATION_DESCRIPTION">
+                                <option value="0">None</option>
+                                <option value="tienda">Tienda</option>
+                                <option value="virtuemart">Virtuemart</option>
+	</field>
+     <field type="text" name="courses_category" size="5" label="COM_JOOMDLE_VIRTUEMART_CATEGORY_FOR_COURSES" description="COM_JOOMDLE_VIRTUEMART_CATEGORY_FOR_COURSES_DESCRIPTION" />
+	<field name="buy_for_children" type="radio" default="0" label="COM_JOOMDLE_BUY_FOR_CHILDREN" description="COM_JOOMDLE_BUY_FOR_CHILDREN_DESCRIPTION">
+		 <option value="0">No</option>
+		  <option value="1">Yes</option>
+	   </field>
+	<field name="send_bundle_emails" type="radio" default="0" label="COM_JOOMDLE_SEND_BUNDLE_EMAILS" description="COM_JOOMDLE_SEND_BUNDLE_EMAILS_DESCRIPTION">
+		 <option value="0">No</option>
+		  <option value="1">Yes</option>
+	   </field>
+    <field name="enrol_email_subject" type="text" size="50"  default="" label="COM_JOOMDLE_ENROL_EMAIL_SUBJECT" rows="3" cols="30" description="COM_JOOMDLE_ENROL_EMAIL_SUBJECT_DESCRIPTION" />
+    <field name="enrol_email_text" type="textarea" default="" label="COM_JOOMDLE_ENROL_EMAIL_TEXT" rows="3" cols="30" description="COM_JOOMDLE_ENROL_EMAIL_TEXT_DESCRIPTION" />
+	  <field name="@spacer" type="spacer" default="" label="" description="" />
+	<field name="additional_data_source" type="radio" default="none" label="COM_JOOMDLE_ADDITIONAL_DATA_SOURCE" description="COM_JOOMDLE_ADDITIONAL_DATA_SOURCE_DESCRIPTION">
+                                <option value="none">None</option>
+                                <option value="jomsocial">Jomsocial</option>
+                                <option value="virtuemart">Virtuemart</option>
+                                <option value="tienda">Tienda</option>
+	</field>
+    <field name="j16_form_path" type="text" size="50"  default="" label="COM_JOOMDLE_J16_FORM_PATH"  description="COM_JOOMDLE_J16_FORM_PATH_DESCRIPTION" />
+    <field name="j16_profile_plugin" type="text" size="50"  default="" label="COM_JOOMDLE_J16_PROFILE_PLUGIN"  description="COM_JOOMDLE_J16_PROFILE_PLUGIN_DESCRIPTION" />
+
+	<field name="use_profiletypes" type="radio" default="0" label="COM_JOOMDLE_USE_XIPT_INTEGRATION" description="COM_JOOMDLE_USE_XIPT_INTEGRATION_DESCRIPTION">
+		 <option value="0">No</option>
+		  <option value="jomsocial">Jomsocial 2.x</option>
+		  <option value="xipt">XIPT</option>
+	   </field>
+   <field name="applications_max" type="text" size="5"  default="" label="CJ APPLICATION MAX" rows="3" cols="30" description="CJ APPLICATION MAX DESCRIPTION" />
+
+   <field name="joomlagroups_teachers" type="Usergroup"  default="0" label="COM_JOOMDLE_TEACHER_GROUP" description="COM_JOOMDLE_TEACHER_GROUP_DESCRIPTION" />
+   <field name="joomlagroups_students" type="Usergroup"  default="0" label="COM_JOOMDLE_STUDENT_GROUP" description="COM_JOOMDLE_STUDENT_GROUP_DESCRIPTION" />
+
+   <field  name="show_back_links" type="radio"  default="0" label="COM_JOOMDLE_SHOW_BACK_LINKS" description="COM_JOOMDLE_SHOW_BACK_LINKS_DESCRIPTION" >
+		 <option value="0">No</option>
+		  <option value="1">Yes</option>
+   </field>
+   <field  name="gradingsystem_show_items" type="radio"  default="0" label="COM_JOOMDLE_SHOW_GRADE_ITEMS" description="COM_JOOMDLE_SHOW_GRADE_ITEMS_DESCRIPTION" >
+		 <option value="0">No</option>
+		  <option value="1">Yes</option>
+   </field>
+
+</fieldset></fields></config>

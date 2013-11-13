@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jomsocial>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<component>com_joomdle</component>
+	<rules>
+		<rule>
+			<name>Enrol into course</name>
+			<description>Give points when registered user enrols into a course.</description>
+			<action_string>joomdle.enrol</action_string>
+			<publish>true</publish>
+			<points>0</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>Submit a quiz attempt</name>
+			<description>Give points when user submits a quiz attempt.</description>
+			<action_string>joomdle.quiz_attempt</action_string>
+			<publish>true</publish>
+			<points>0</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>Complete a course</name>
+			<description>Give points when user completes a course.</description>
+			<action_string>joomdle.course_completed</action_string>
+			<publish>true</publish>
+			<points>0</points>
+			<access_level>1</access_level>
+		</rule>
+	</rules>
+</jomsocial>
