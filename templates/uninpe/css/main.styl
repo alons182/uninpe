@@ -192,30 +192,47 @@ a
 
 	#middle-content
 		margin-bottom 20px
+
+		ul 
+			margin 0
+			padding 0
 		
 		
-		#pturistico
+		#pturistico, .item-139, .item-155
 			background $verde
-		#pempresarial
+
+			&:hover
+				background $gris_claro2
+
+				h1, .separator
+					color $gris_oscuro
+		
+		#pempresarial, .item-140, .item-160
 			background $azul
 
-		#pturistico:hover, #pempresarial:hover
-			background $gris_claro2
 
-			h1
-				color $gris_oscuro
+			&:hover
+				background $gris_claro2
 
-		.programa
+				h1,.separator
+					color $gris_oscuro
+
+		.programa, .parent
 			
 			display inline-block
-			margin-right -0.25em
+			//margin-right -0.25em
 			vertical-align top
 			width 480px
 
-			h1
+			h1, .separator
 				font-size 18px
 				text-align center
 				color #FFF
+				display block
+				font-weight bold
+				margin 10px auto 
+				width 230px
+				
 			ul 
 				margin 0
 				padding 0
@@ -246,7 +263,7 @@ a
 							background-color #fff
 							color $gris_claro
 
-					#admin_hotelera
+					#admin_hotelera 
 						background url('../img/bg_admin_hotelera.png') no-repeat top left $gris_claro
 						
 					#admin_marketing, #admin_marketing_empresas
@@ -263,7 +280,20 @@ a
 					#admin_calidad:hover,#admin_empresas:hover
 						background-color #fff
 						color $gris_claro
-		
+
+				.item-131 a, .item-156 a
+					background url('../img/bg_admin_hotelera.png') no-repeat top left $gris_claro
+
+				.item-132 a, .item-136 a,  .item-157 a, .item-162 a
+					background url('../img/bg_admin_marketing.png') no-repeat top left  $gris_claro
+				.item-133 a, .item-137 a,  .item-158 a, .item-163 a
+					background url('../img/bg_admin_rrhh.png') no-repeat top left  $gris_claro
+				.item-134 a, .item-159 a
+					background url('../img/bg_admin_calidad.png') no-repeat top left  $gris_claro
+				.item-135 a, .item-161 a
+					background url('../img/bg_admin_empresas.png') no-repeat top left  $gris_claro
+				.item-138 a, .item-164 a
+						background url('../img/bg_admin_contable.png') no-repeat top left  $gris_claro
 			
 
 			

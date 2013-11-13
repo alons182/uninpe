@@ -41,24 +41,33 @@ a:hover{color:#a6c31e}
 #wrapper #banner a{background:#fff;color:#53565a;padding:.3em 1.5em;text-decoration:none;}
 #wrapper #banner a:hover{background:#a6c31e;color:#fff}
 #wrapper #middle-content{margin-bottom:20px;}
-#wrapper #middle-content #pturistico{background:#a6c31e}
-#wrapper #middle-content #pempresarial{background:#3a90da}
-#wrapper #middle-content #pturistico:hover,#wrapper #middle-content #pempresarial:hover{background:#ebeae6;}
-#wrapper #middle-content #pturistico:hover h1,#wrapper #middle-content #pempresarial:hover h1{color:#53565a}
-#wrapper #middle-content .programa{display:inline-block;margin-right:-.25em;vertical-align:top;width:480px;}
-#wrapper #middle-content .programa h1{font-size:18px;text-align:center;color:#fff}
-#wrapper #middle-content .programa ul{margin:0;padding:0;list-style:none;}
-#wrapper #middle-content .programa ul li{font-size:13px;text-align:right;margin:1em auto;width:80%;}
-#wrapper #middle-content .programa ul li a{display:block;text-transform:uppercase;color:#fff;text-decoration:none;padding:.5em;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);}
-#wrapper #middle-content .programa ul li a .subtitle{display:block;text-transform:none;font-size:11px}
-#wrapper #middle-content .programa ul li a:hover{background-color:#fff;color:#a7a7a7}
-#wrapper #middle-content .programa ul li #admin_hotelera{background:url("../img/bg_admin_hotelera.png") no-repeat top left #a7a7a7}
-#wrapper #middle-content .programa ul li #admin_marketing,#wrapper #middle-content .programa ul li #admin_marketing_empresas{background:url("../img/bg_admin_marketing.png") no-repeat top left #a7a7a7}
-#wrapper #middle-content .programa ul li #admin_rrhh,#wrapper #middle-content .programa ul li #admin_rrhh_empresas{background:url("../img/bg_admin_rrhh.png") no-repeat top left #a7a7a7}
-#wrapper #middle-content .programa ul li #admin_calidad{background:url("../img/bg_admin_calidad.png") no-repeat top left #a7a7a7}
-#wrapper #middle-content .programa ul li #admin_empresas{background:url("../img/bg_admin_empresas.png") no-repeat top left #a7a7a7}
-#wrapper #middle-content .programa ul li #admin_financiera{background:url("../img/bg_admin_contable.png") no-repeat top left #a7a7a7}
-#wrapper #middle-content .programa ul li #admin_financiera:hover,#wrapper #middle-content .programa ul li #admin_hotelera:hover,#wrapper #middle-content .programa ul li #admin_marketing:hover,#wrapper #middle-content .programa ul li #admin_marketing_empresas:hover,#wrapper #middle-content .programa ul li #admin_rrhh:hover,#wrapper #middle-content .programa ul li #admin_rrhh_empresas:hover,#wrapper #middle-content .programa ul li #admin_calidad:hover,#wrapper #middle-content .programa ul li #admin_empresas:hover{background-color:#fff;color:#a7a7a7}
+#wrapper #middle-content ul{margin:0;padding:0}
+#wrapper #middle-content #pturistico,#wrapper #middle-content .item-139,#wrapper #middle-content .item-155{background:#a6c31e;}
+#wrapper #middle-content #pturistico:hover,#wrapper #middle-content .item-139:hover,#wrapper #middle-content .item-155:hover{background:#ebeae6;}
+#wrapper #middle-content #pturistico:hover h1,#wrapper #middle-content .item-139:hover h1,#wrapper #middle-content .item-155:hover h1,#wrapper #middle-content #pturistico:hover .separator,#wrapper #middle-content .item-139:hover .separator,#wrapper #middle-content .item-155:hover .separator{color:#53565a}
+#wrapper #middle-content #pempresarial,#wrapper #middle-content .item-140,#wrapper #middle-content .item-160{background:#3a90da;}
+#wrapper #middle-content #pempresarial:hover,#wrapper #middle-content .item-140:hover,#wrapper #middle-content .item-160:hover{background:#ebeae6;}
+#wrapper #middle-content #pempresarial:hover h1,#wrapper #middle-content .item-140:hover h1,#wrapper #middle-content .item-160:hover h1,#wrapper #middle-content #pempresarial:hover .separator,#wrapper #middle-content .item-140:hover .separator,#wrapper #middle-content .item-160:hover .separator{color:#53565a}
+#wrapper #middle-content .programa,#wrapper #middle-content .parent{display:inline-block;vertical-align:top;width:480px;}
+#wrapper #middle-content .programa h1,#wrapper #middle-content .parent h1,#wrapper #middle-content .programa .separator,#wrapper #middle-content .parent .separator{font-size:18px;text-align:center;color:#fff;display:block;font-weight:bold;margin:10px auto;width:230px}
+#wrapper #middle-content .programa ul,#wrapper #middle-content .parent ul{margin:0;padding:0;list-style:none;}
+#wrapper #middle-content .programa ul li,#wrapper #middle-content .parent ul li{font-size:13px;text-align:right;margin:1em auto;width:80%;}
+#wrapper #middle-content .programa ul li a,#wrapper #middle-content .parent ul li a{display:block;text-transform:uppercase;color:#fff;text-decoration:none;padding:.5em;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);box-shadow:0 5px 6px 1px rgba(0,0,0,0.5);}
+#wrapper #middle-content .programa ul li a .subtitle,#wrapper #middle-content .parent ul li a .subtitle{display:block;text-transform:none;font-size:11px}
+#wrapper #middle-content .programa ul li a:hover,#wrapper #middle-content .parent ul li a:hover{background-color:#fff;color:#a7a7a7}
+#wrapper #middle-content .programa ul li #admin_hotelera,#wrapper #middle-content .parent ul li #admin_hotelera{background:url("../img/bg_admin_hotelera.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_marketing,#wrapper #middle-content .parent ul li #admin_marketing,#wrapper #middle-content .programa ul li #admin_marketing_empresas,#wrapper #middle-content .parent ul li #admin_marketing_empresas{background:url("../img/bg_admin_marketing.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_rrhh,#wrapper #middle-content .parent ul li #admin_rrhh,#wrapper #middle-content .programa ul li #admin_rrhh_empresas,#wrapper #middle-content .parent ul li #admin_rrhh_empresas{background:url("../img/bg_admin_rrhh.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_calidad,#wrapper #middle-content .parent ul li #admin_calidad{background:url("../img/bg_admin_calidad.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_empresas,#wrapper #middle-content .parent ul li #admin_empresas{background:url("../img/bg_admin_empresas.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_financiera,#wrapper #middle-content .parent ul li #admin_financiera{background:url("../img/bg_admin_contable.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul li #admin_financiera:hover,#wrapper #middle-content .parent ul li #admin_financiera:hover,#wrapper #middle-content .programa ul li #admin_hotelera:hover,#wrapper #middle-content .parent ul li #admin_hotelera:hover,#wrapper #middle-content .programa ul li #admin_marketing:hover,#wrapper #middle-content .parent ul li #admin_marketing:hover,#wrapper #middle-content .programa ul li #admin_marketing_empresas:hover,#wrapper #middle-content .parent ul li #admin_marketing_empresas:hover,#wrapper #middle-content .programa ul li #admin_rrhh:hover,#wrapper #middle-content .parent ul li #admin_rrhh:hover,#wrapper #middle-content .programa ul li #admin_rrhh_empresas:hover,#wrapper #middle-content .parent ul li #admin_rrhh_empresas:hover,#wrapper #middle-content .programa ul li #admin_calidad:hover,#wrapper #middle-content .parent ul li #admin_calidad:hover,#wrapper #middle-content .programa ul li #admin_empresas:hover,#wrapper #middle-content .parent ul li #admin_empresas:hover{background-color:#fff;color:#a7a7a7}
+#wrapper #middle-content .programa ul .item-131 a,#wrapper #middle-content .parent ul .item-131 a,#wrapper #middle-content .programa ul .item-156 a,#wrapper #middle-content .parent ul .item-156 a{background:url("../img/bg_admin_hotelera.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul .item-132 a,#wrapper #middle-content .parent ul .item-132 a,#wrapper #middle-content .programa ul .item-136 a,#wrapper #middle-content .parent ul .item-136 a,#wrapper #middle-content .programa ul .item-157 a,#wrapper #middle-content .parent ul .item-157 a,#wrapper #middle-content .programa ul .item-162 a,#wrapper #middle-content .parent ul .item-162 a{background:url("../img/bg_admin_marketing.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul .item-133 a,#wrapper #middle-content .parent ul .item-133 a,#wrapper #middle-content .programa ul .item-137 a,#wrapper #middle-content .parent ul .item-137 a,#wrapper #middle-content .programa ul .item-158 a,#wrapper #middle-content .parent ul .item-158 a,#wrapper #middle-content .programa ul .item-163 a,#wrapper #middle-content .parent ul .item-163 a{background:url("../img/bg_admin_rrhh.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul .item-134 a,#wrapper #middle-content .parent ul .item-134 a,#wrapper #middle-content .programa ul .item-159 a,#wrapper #middle-content .parent ul .item-159 a{background:url("../img/bg_admin_calidad.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul .item-135 a,#wrapper #middle-content .parent ul .item-135 a,#wrapper #middle-content .programa ul .item-161 a,#wrapper #middle-content .parent ul .item-161 a{background:url("../img/bg_admin_empresas.png") no-repeat top left #a7a7a7}
+#wrapper #middle-content .programa ul .item-138 a,#wrapper #middle-content .parent ul .item-138 a,#wrapper #middle-content .programa ul .item-164 a,#wrapper #middle-content .parent ul .item-164 a{background:url("../img/bg_admin_contable.png") no-repeat top left #a7a7a7}
 #wrapper #contenido{background:#ebeae6;}
 #wrapper #contenido #center-content .content{display:inline-block;height:340px;margin-right:-.2em;overflow:hidden;padding:.5em;position:relative;vertical-align:top;}
 #wrapper #contenido #center-content .content ul{margin:0;padding:0;list-style:none;}
