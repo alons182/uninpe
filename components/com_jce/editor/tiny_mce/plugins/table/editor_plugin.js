@@ -24,7 +24,6 @@
         // Check for text characters of other elements that should be treated as content
         return elm.innerHTML.replace(/<(br|img|object|embed|input|textarea)[^>]*>/gi, '-').replace(/<[^>]+>/g, '').length == 0;
     }
-    ;
 
     function getSpanVal(td, name) {
         return parseInt(td.getAttribute(name) || 1);
@@ -96,7 +95,6 @@
                 startY += rows.length;
             });
         }
-        ;
 
         function getCell(x, y) {
             var row;
@@ -105,7 +103,6 @@
             if (row)
                 return row[x];
         }
-        ;
 
         function setSpanVal(td, name, val) {
             if (td) {
@@ -121,7 +118,6 @@
         function isCellSelected(cell) {
             return cell && (dom.hasClass(cell.elm, 'mceSelected') || cell == selectedCell);
         }
-        ;
 
         function getSelectedRows() {
             var rows = [];
@@ -137,7 +133,6 @@
 
             return rows;
         }
-        ;
 
         function deleteTable() {
             var rng = dom.createRng();
@@ -149,7 +144,6 @@
 
             dom.remove(table);
         }
-        ;
 
         function cloneCell(cell) {
             var formatNode;
@@ -172,7 +166,7 @@
 
                     // Add something to the inner node
                     if (curNode)
-                        curNode.innerHTML = tinymce.isIE ? '&nbsp;' : '<br data-mce-bogus="1" />';
+                        curNode.innerHTML = tinymce.isIE && !tinymce.isIE11 ? '&nbsp;' : '<br data-mce-bogus="1" />';
 
                     return false;
                 }
@@ -185,13 +179,12 @@
             if (formatNode) {
                 cell.appendChild(formatNode);
             } else {
-                if (!tinymce.isIE)
+                if (!tinymce.isIE || tinymce.isIE11)
                     cell.innerHTML = '<br data-mce-bogus="1" />';
             }
 
             return cell;
         }
-        ;
 
         function cleanup() {
             var rng = dom.createRng();
@@ -227,7 +220,6 @@
                 selection.collapse(true);
             }
         }
-        ;
 
         function fillLeftDown(x, y, rows, cols) {
             var tr, x2, r, c, cell;
@@ -258,7 +250,6 @@
                 }
             }
         }
-        ;
 
         function split() {
             each(grid, function(row, y) {
@@ -284,7 +275,6 @@
                 });
             });
         }
-        ;
 
         function merge(cell, cols, rows) {
             var startX, startY, endX, endY, x, y, startCell, endCell, cell, children, count;
@@ -369,7 +359,6 @@
                 cleanup();
             }
         }
-        ;
 
         function insertRow(before) {
             var posY, cell, lastCell, x, rowElm, newRow, newCell, otherCell, rowSpan;
@@ -435,7 +424,6 @@
                     rowElm.parentNode.insertBefore(newRow, rowElm);
             }
         }
-        ;
 
         function insertCol(before) {
             var posX, lastCell;
@@ -481,7 +469,6 @@
                 }
             });
         }
-        ;
 
         function deleteCols() {
             var cols = [];
@@ -508,7 +495,6 @@
 
             cleanup();
         }
-        ;
 
         function deleteRows() {
             var rows;
@@ -548,7 +534,6 @@
                     }
                 });
             }
-            ;
 
             // Get selected rows and move selection out of scope
             rows = getSelectedRows();
@@ -560,7 +545,6 @@
 
             cleanup();
         }
-        ;
 
         function cutRows() {
             var rows = getSelectedRows();
@@ -570,7 +554,6 @@
 
             return rows;
         }
-        ;
 
         function copyRows() {
             var rows = getSelectedRows();
@@ -581,8 +564,7 @@
 
             return rows;
         }
-        ;
-
+        
         function pasteRows(rows, before) {
             // If we don't have any rows in the clipboard, return immediately
             if (!rows)
@@ -640,7 +622,6 @@
             // Remove current selection
             dom.removeClass(dom.select('td.mceSelected,th.mceSelected'), 'mceSelected');
         }
-        ;
 
         function getPos(target) {
             var pos;
@@ -658,12 +639,10 @@
 
             return pos;
         }
-        ;
 
         function setStartCell(cell) {
             startPos = getPos(cell);
         }
-        ;
 
         function findEndPos() {
             var pos, maxX, maxY;
@@ -703,7 +682,6 @@
 
             return {x: maxX, y: maxY};
         }
-        ;
 
         function setEndCell(cell) {
             var startX, startY, endX, endY, maxX, maxY, colSpan, rowSpan;
@@ -775,7 +753,6 @@
                 }
             }
         }
-        ;
 
         // Expose to public
         tinymce.extend(this, {
@@ -794,7 +771,6 @@
             setEndCell: setEndCell
         });
     }
-    ;
 
     tinymce.create('tinymce.plugins.TablePlugin', {
         init: function(ed, url) {
@@ -809,7 +785,6 @@
                 if (tblElm)
                     return new TableGrid(tblElm, ed.dom, selection);
             }
-            ;
 
             function cleanup() {
                 // Restore selection possibilities
@@ -820,7 +795,6 @@
                     hasCellSelection = false;
                 }
             }
-            ;
 
             // Register buttons
             each([
@@ -1279,12 +1253,11 @@
 
                     if (last && last.nodeName == 'TABLE') {
                         if (ed.settings.forced_root_block)
-                            ed.dom.add(ed.getBody(), ed.settings.forced_root_block, null, tinymce.isIE ? '&nbsp;' : '<br data-mce-bogus="1" />');
+                            ed.dom.add(ed.getBody(), ed.settings.forced_root_block, null, tinymce.isIE && !tinymce.isIE11 ? '&nbsp;' : '<br data-mce-bogus="1" />');
                         else
                             ed.dom.add(ed.getBody(), 'br', {'data-mce-bogus': '1'});
                     }
                 }
-                ;
 
                 // Fixes an bug where it's impossible to place the caret before a table in Gecko
                 // this fix solves it by detecting when the caret is at the beginning of such a table
@@ -1377,10 +1350,12 @@
                             onaction: function(data) {
                                 grid.merge(cell, data.cols, data.rows);
                             },
-                            plugin_url: url
+                            plugin_url: url,
+                            context : "merge"
                         });
-                    } else
+                    } else {
                         grid.merge();
+                    }
                 },
                 mceTableInsertRowBefore: function(grid) {
                     grid.insertRow(true);
@@ -1438,7 +1413,8 @@
                         popup_css: false
                     }, {
                         plugin_url: url,
-                        action: val ? val.action : 0
+                        action: val ? val.action : 0,
+                        context : "table"
                     });
                 },
                 mceTableRowProps: function() {
@@ -1449,7 +1425,8 @@
                         inline: 1,
                         popup_css: false
                     }, {
-                        plugin_url: url
+                        plugin_url: url,
+                        context : "row"
                     });
                 },
                 mceTableCellProps: function() {
@@ -1460,7 +1437,8 @@
                         inline: 1,
                         popup_css: false
                     }, {
-                        plugin_url: url
+                        plugin_url: url,
+                        context : "cell"
                     });
                 }
 
