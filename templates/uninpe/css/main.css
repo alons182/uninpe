@@ -5,7 +5,7 @@
 .icon-twitter:before{content:"\e004"}
 body{background:#fff;color:#53565a;font-family:'Open Sans',sans-serif;font-size:14px;line-height:1.4}
 a{color:#53565a;}
-a:hover{color:#a6c31e}
+a:hover{color:#000}
 .btn{background:#53565a;padding:.5em;border-bottom:2px solid #000;color:#fff;text-decoration:none;display:inline;text-align:center}
 #wrapper{margin:0 auto;width:960px;}
 #wrapper header{background:#53565a;padding-top:0;}
@@ -25,7 +25,7 @@ a:hover{color:#a6c31e}
 #wrapper header #menu ul li{padding:.5em .5em;float:left;}
 #wrapper header #menu ul li a{font-size:14px;color:#53565a;font-weight:700;text-decoration:none;text-transform:uppercase;}
 #wrapper header #menu ul li a:hover{color:#a7a7a7}
-#wrapper header #menu ul .current a{color:#a6c31e}
+#wrapper header #menu ul .current a{color:#000}
 #wrapper #banner{height:350px;width:100%;}
 #wrapper #banner #slideshow{height:350px;margin:0 auto;width:100%;}
 #wrapper #banner #slideshow .slide{background-position:center top;background-repeat:no-repeat;height:100%;text-align:center;width:100%;}
@@ -39,10 +39,10 @@ a:hover{color:#a6c31e}
 #wrapper #banner h1 strong{font-size:30px;font-weight:700}
 #wrapper #banner p{font-size:14px;margin:2em 0}
 #wrapper #banner a{background:#fff;color:#53565a;padding:.3em 1.5em;text-decoration:none;}
-#wrapper #banner a:hover{background:#a6c31e;color:#fff}
+#wrapper #banner a:hover{background:#000;color:#fff}
 #wrapper #middle-content{margin-bottom:20px;}
 #wrapper #middle-content ul{margin:0;padding:0}
-#wrapper #middle-content #pturistico,#wrapper #middle-content .item-139,#wrapper #middle-content .item-155{background:#a6c31e;}
+#wrapper #middle-content #pturistico,#wrapper #middle-content .item-139,#wrapper #middle-content .item-155{background:#000;}
 #wrapper #middle-content #pturistico:hover,#wrapper #middle-content .item-139:hover,#wrapper #middle-content .item-155:hover{background:#ebeae6;}
 #wrapper #middle-content #pturistico:hover h1,#wrapper #middle-content .item-139:hover h1,#wrapper #middle-content .item-155:hover h1,#wrapper #middle-content #pturistico:hover .separator,#wrapper #middle-content .item-139:hover .separator,#wrapper #middle-content .item-155:hover .separator{color:#53565a}
 #wrapper #middle-content #pempresarial,#wrapper #middle-content .item-140,#wrapper #middle-content .item-160{background:#3a90da;}
@@ -72,7 +72,7 @@ a:hover{color:#a6c31e}
 #wrapper #contenido{background:#ebeae6;}
 #wrapper #contenido #center-content .content{display:inline-block;height:340px;margin-right:-.2em;overflow:hidden;padding:.5em;position:relative;vertical-align:top;}
 #wrapper #contenido #center-content .content ul{margin:0;padding:0;list-style:none;}
-#wrapper #contenido #center-content .content ul li .mod-articles-category-title{color:#a6c31e;font-size:14px;font-weight:400;margin:0;text-decoration:none;}
+#wrapper #contenido #center-content .content ul li .mod-articles-category-title{color:#000;font-size:14px;font-weight:400;margin:0;text-decoration:none;}
 #wrapper #contenido #center-content .content ul li .mod-articles-category-title:hover{text-decoration:underline}
 #wrapper #contenido #center-content .content h3{font-size:24px;text-transform:uppercase;margin-bottom:10px;margin-top:5px}
 #wrapper #contenido #center-content .content p{font-size:13px}
@@ -108,10 +108,10 @@ a:hover{color:#a6c31e}
 #wrapper #contenido #main .article-info-term,#wrapper #contenido .item-page .article-info-term,#wrapper #contenido .search .article-info-term,#wrapper #contenido #k2Container .article-info-term,#wrapper #contenido .blog .article-info-term,#wrapper #contenido .contentpane .article-info-term,#wrapper #contenido .joomdle-coursedetails .article-info-term,#wrapper #contenido .joomdle-coursecategories .article-info-term,#wrapper #contenido .joomdle-coursecategory .article-info-term,#wrapper #contenido .joomdle-topiclist .article-info-term,#wrapper #contenido .joomdle-course .article-info-term{display:none}
 #wrapper #contenido .blog h2{margin-bottom:0}
 #wrapper #contenido .blog .items-row{border-bottom:1px solid #a7a7a7;padding:.5em}
-#wrapper #contenido .blog .readmore a{background:#a6c31e;text-decoration:none;color:#fff;padding:.3em}
+#wrapper #contenido .blog .readmore a{background:#000;text-decoration:none;color:#fff;padding:.3em}
 #wrapper #contenido .b2jcontainer{border:none}
 #wrapper #contenido .moduletable_acceso_plataforma{text-align:center;background:#fff;padding:.5em;}
-#wrapper #contenido .moduletable_acceso_plataforma .btn{background:#a6c31e;border-color:#6f8604;}
+#wrapper #contenido .moduletable_acceso_plataforma .btn{background:#000;border-color:#6f8604;}
 #wrapper #contenido .moduletable_acceso_plataforma .btn:hover{background:#3a90da;color:#fff;border-color:#044780}
 #wrapper footer{background:#53565a;margin-top:20px;}
 #wrapper footer .menu-footer{text-align:center;}
@@ -119,12 +119,12 @@ a:hover{color:#a6c31e}
 #wrapper footer .menu-footer ul li{display:inline-block;padding:.5em .5em;}
 #wrapper footer .menu-footer ul li a{font-size:12px;color:#fff;text-decoration:none;}
 #wrapper footer .menu-footer ul li a:hover{color:#a7a7a7}
-#wrapper footer .menu-footer ul .current a{color:#a6c31e}
+#wrapper footer .menu-footer ul .current a{color:#000}
 #wrapper footer #copyright{padding:.5em;text-align:center;font-size:12px;color:#fff;}
 #wrapper footer #copyright p{margin:0}
 iframe.autoHeight{min-height:550px}
 .joomdle_category_list_item_title,.joomdle_course_list_item_title,.joomdle_section_list_item_title{background:#53565a;color:#fff;}
 .joomdle_category_list_item_title a,.joomdle_course_list_item_title a,.joomdle_section_list_item_title a{color:#fff;font-weight:normal;}
-.joomdle_category_list_item_title a:hover,.joomdle_course_list_item_title a:hover,.joomdle_section_list_item_title a:hover{color:#a6c31e}
+.joomdle_category_list_item_title a:hover,.joomdle_course_list_item_title a:hover,.joomdle_section_list_item_title a:hover{color:#000}
 .joomdle_course_list_item_description,.joomdle_section_list_item_resources{background:#ebeae6}
 .joomdle_list_description{background:#53565a;color:#fff}
