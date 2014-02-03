@@ -1,4 +1,4 @@
-/* JCE Editor - 2.3.4.2 | 09 December 2013 | http://www.joomlacontenteditor.net | Copyright (C) 2006 - 2013 Ryan Demmer. All rights reserved | GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html */
+/* JCE Editor - 2.3.4.4 | 12 December 2013 | http://www.joomlacontenteditor.net | Copyright (C) 2006 - 2013 Ryan Demmer. All rights reserved | GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html */
 (function($){var standalone=typeof tinyMCEPopup=='undefined';var $tmp=document.createElement('div');$.support.canvas=!!document.createElement('canvas').getContext;$.support.backgroundSize=(function(){var s=false;$.each(['backgroundSize','MozBackgroundSize','WebkitBackgroundSize','OBackgroundSize'],function(){if(typeof $tmp.style[this]!=='undefined'){s=true;}});return s;})();$.support.pdf=(function(){try{if(!$.support.cssFloat){var control=null;try{control=new ActiveXObject('AcroPDF.PDF');}
 catch(e){}
 if(!control){try{control=new ActiveXObject('PDF.PdfCtrl');}

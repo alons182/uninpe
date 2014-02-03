@@ -1,4 +1,4 @@
-/* JCE Editor - 2.3.4.2 | 09 December 2013 | http://www.joomlacontenteditor.net | Copyright (C) 2006 - 2013 Ryan Demmer. All rights reserved | GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html */
+/* JCE Editor - 2.3.4.4 | 12 December 2013 | http://www.joomlacontenteditor.net | Copyright (C) 2006 - 2013 Ryan Demmer. All rights reserved | GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html */
 (function($){var previewStyles=['fontFamily','fontSize','fontWeight','textDecoration','textTransform','color','backgroundColor'];function camelCase(str){return str.replace(/^-ms-/,"ms-").replace(/-([\da-z])/gi,function(all,letter){return letter.toUpperCase();});}
 $(document).ready(function(){var init=true;$('div.styleformat-list').on('update',function(){var list=[],v="";$('div.styleformat',this).each(function(){var data={},v,p=this;if($('div.styleformat-item-title input',p).val()&&$('div.styleformat-item-element select',p).val()){$('input[type="text"], select',p).each(function(){var k=$(this).data('key'),v=$(this).val();if(v!==""){data[k]=v;}});}
 if(!$.isEmptyObject(data)){list.push(data);}});if(list.length){v=JSON.stringify(list);}

@@ -28,3 +28,12 @@
 2013-11-08T01:02:08+00:00	INFO	update	Deleting removed files and folders.
 2013-11-08T01:02:09+00:00	INFO	update	Cleaning up after installation.
 2013-11-08T01:02:09+00:00	INFO	update	Update to version 3.2.0 is complete.
+2014-02-03T15:55:30+00:00	INFO	update	Update started by user Super User (849). Old version is 3.2.0.
+2014-02-03T15:55:30+00:00	INFO	update	Downloading update file from .
+2014-02-03T15:55:35+00:00	INFO	update	File Joomla_3.2.x_to_3.2.1-Stable-Patch_Package.zip successfully downloaded.
+2014-02-03T15:55:36+00:00	INFO	update	Starting installation of new version.
+2014-02-03T15:55:39+00:00	INFO	update	Finalising installation.
+2014-02-03T15:55:39+00:00	INFO	update	Ran query from file 3.2.1. Query text: DELETE FROM `#__postinstall_messages` WHERE `title_key` = 'PLG_USER_JOOMLA_POSTI.
+2014-02-03T15:55:39+00:00	INFO	update	Deleting removed files and folders.
+2014-02-03T15:55:40+00:00	INFO	update	Cleaning up after installation.
+2014-02-03T15:55:40+00:00	INFO	update	Update to version 3.2.1 is complete.
